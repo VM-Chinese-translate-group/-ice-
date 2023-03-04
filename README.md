@@ -1,4 +1,4 @@
-# Modpack Name 汉化补丁
+# Modpack Name 汉化补丁 空的仓库！但是已经要到授权占位用
 CurseForge|Modrinth|Modpack Version|Status
 :-|:-|:-|:-
 [Modpack]()|[Modpack]()|Version|*Active*|
