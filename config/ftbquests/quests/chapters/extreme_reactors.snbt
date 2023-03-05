@@ -1,0 +1,297 @@
+{
+	id: "45890A8B64D33C47"
+	group: "3AFD8280D5598700"
+	order_index: 3
+	filename: "extreme_reactors"
+	title: "{chapters.extreme_reactors.title}"
+	icon: "bigreactors:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: [
+				"3F6EC5BBA2F64346"
+				"1F66179569D1CE02"
+			]
+			id: "4C0CD9336F33D08B"
+			tasks: [{
+				id: "433D39CF95C3E5BC"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+				count: 4L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["4C0CD9336F33D08B"]
+			id: "370B9C3D07CF6AA0"
+			tasks: [{
+				id: "28342CA94C54E947"
+				type: "item"
+				item: "bigreactors:basic_reactorcasing"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.75d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "47D76FF8CEA1DA9B"
+			tasks: [{
+				id: "2D7BF5CDDE6A11A0"
+				type: "item"
+				item: "bigreactors:basic_reactorcontroller"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -4.25d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "77A3271569D38150"
+			tasks: [{
+				id: "2639DBF9D5FDB5D7"
+				type: "item"
+				item: "bigreactors:basic_reactorfuelrod"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.25d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "52187CC049E9EC2A"
+			tasks: [{
+				id: "7582A1B28CC548CD"
+				type: "item"
+				item: "bigreactors:basic_reactorcontrolrod"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "3591B30245CCBF0A"
+			tasks: [{
+				id: "5F5BF30B1EEA2C8D"
+				type: "item"
+				item: "bigreactors:basic_reactorsolidaccessport"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "08483D40ED99D9B2"
+			tasks: [{
+				id: "505600DCC4429D24"
+				type: "item"
+				item: "bigreactors:wrench"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -3.0d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "58E7E71EF38BFC08"
+			tasks: [{
+				id: "55FF4460FD0DF328"
+				type: "item"
+				item: "bigreactors:basic_reactorpowertapfe_passive"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.75d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "261BF56F85342430"
+			tasks: [{
+				id: "7EE558445F3BCE2E"
+				type: "item"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.75d
+			dependencies: ["261BF56F85342430"]
+			id: "54733F24BB47A08B"
+			tasks: [{
+				id: "264330256E78BB3B"
+				type: "item"
+				item: "bigreactors:basic_reactorchargingportfe"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.75d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "4DBDEABB13CC87B8"
+			tasks: [{
+				id: "3E5058267EE41714"
+				type: "item"
+				item: "bigreactors:basic_reactorredstoneport"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["370B9C3D07CF6AA0"]
+			id: "0B01EEA2B11749F7"
+			tasks: [{
+				id: "1D8335B2D01A651D"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcasing"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.25d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "42009E16AA040ECB"
+			tasks: [{
+				id: "660EE77BBA7AE910"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcontroller"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.75d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "6F7F170D39465CF4"
+			tasks: [{
+				id: "6053FDF011359BCC"
+				type: "item"
+				item: "bigreactors:reinforced_reactorfuelrod"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.75d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "15BB72180CA08635"
+			tasks: [{
+				id: "2A22BF79BA2020E3"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcontrolrod"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.75d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "1FB6BE75C64539B1"
+			tasks: [{
+				id: "0FC3F47E120908E2"
+				type: "item"
+				item: "bigreactors:reinforced_reactorsolidaccessport"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.75d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "2F2513D4F1606C2E"
+			tasks: [{
+				id: "136F08EDCB1693A2"
+				type: "item"
+				item: "bigreactors:reinforced_reactorfluidaccessport"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.25d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "43CFC05C5F99162A"
+			tasks: [{
+				id: "1B33827C6BC9ABC3"
+				type: "item"
+				item: "bigreactors:reinforced_reactorpowertapfe_passive"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.75d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "5E082A47B18188F4"
+			tasks: [{
+				id: "65317E70272EDFDC"
+				type: "item"
+				item: "bigreactors:reinforced_reactorpowertapfe_active"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.75d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "787B54843FFAB2C4"
+			tasks: [{
+				id: "620F3DFA56CCB8DF"
+				type: "item"
+				item: "bigreactors:reinforced_reactorcomputerport"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.25d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "5DD579881A9C6F4D"
+			tasks: [{
+				id: "055D7582813B443C"
+				type: "item"
+				item: "bigreactors:reinforced_reactorredstoneport"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "110CB3923AB36AC2"
+			tasks: [{
+				id: "164621B198A8FE7A"
+				type: "item"
+				item: "bigreactors:reinforced_reactorfluidport_forge_active"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -0.5d
+			dependencies: ["0B01EEA2B11749F7"]
+			id: "5A54C019ADB536E1"
+			tasks: [{
+				id: "72EDF05E3B986209"
+				type: "item"
+				item: "bigreactors:reinforced_reactorfluidport_forge_passive"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -3.0d
+			dependencies: ["5E082A47B18188F4"]
+			id: "68B7FBBDB6AEC028"
+			tasks: [{
+				id: "489607ED9843DC6A"
+				type: "item"
+				item: "bigreactors:reinforced_reactorchargingportfe"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbquests:textures/gui/info.png"
+				}
+			}
+			x: -1.75d
+			y: 0.0d
+			description: ["{chapters.extreme_reactors.quests25.description}"]
+			id: "55F8CE7338658F61"
+			tasks: [{
+				id: "102DA25182506A34"
+				type: "checkmark"
+				title: "{chapters.extreme_reactors.quests25.tasks.title}"
+			}]
+		}
+	]
+}

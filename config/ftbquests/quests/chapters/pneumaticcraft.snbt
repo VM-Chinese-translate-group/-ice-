@@ -1,0 +1,1001 @@
+{
+	id: "165F1A2FF06A4F79"
+	group: "3AFD8280D5598700"
+	order_index: 9
+	filename: "pneumaticcraft"
+	title: "{chapters.pneumaticcraft.title}"
+	icon: "pneumaticcraft:smart_chest"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.25d
+			y: 0.0d
+			description: ["{chapters.pneumaticcraft.quests1.description}"]
+			id: "1D6C404DCD0EDF10"
+			tasks: [{
+				id: "71E656CA2F3C662C"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 8L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["1D6C404DCD0EDF10"]
+			id: "7B4ADBDD8D736172"
+			tasks: [{
+				id: "493426A745630F95"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["The &8Pressure Tubes&r allows you to move pression, but if you put more than 5 Bar, the block will break !"]
+			dependencies: ["1D6C404DCD0EDF10"]
+			id: "3D27229280E4721A"
+			tasks: [{
+				id: "464275482ACDABE0"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+				count: 8L
+			}]
+		}
+		{
+			x: 0.25d
+			y: 0.0d
+			description: [
+				"Put any furnace fuel into the &7Air Compressor&r to generate pressure."
+				""
+				"Note : The fluid buckets will not work; use the &7Fluid Compressor&r for them."
+			]
+			dependencies: ["3D27229280E4721A"]
+			id: "146D22B2E0B767EB"
+			tasks: [{
+				id: "023CA2B8D6ED3832"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -1.25d
+			dependencies: ["146D22B2E0B767EB"]
+			id: "687D44EBC4595831"
+			tasks: [{
+				id: "0EF2294CA0898705"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+		}
+		{
+			title: "{chapters.pneumaticcraft.quests2.tasks2.title}"
+			x: -1.0d
+			y: -1.25d
+			description: [
+				"You can find a complete tutorial on how to build the &7Pressure Chamber&r in the &nManufacturing&r section of the manual."
+				""
+				"{image:kubejs:textures/quests/pressure_chamber.png width:180 height:100 align:1}"
+			]
+			dependencies: ["3D27229280E4721A"]
+			id: "427C54AC12FAB962"
+			tasks: [
+				{
+					id: "373F0347A9F69DD4"
+					type: "item"
+					title: "23x Pressure Chamber Wall/Glass"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pneumaticcraft:pressure_chamber_wall"
+									Count: 1b
+								}
+								{
+									id: "pneumaticcraft:pressure_chamber_glass"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 23L
+				}
+				{
+					id: "04BC4C8E1AADDF20"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+				{
+					id: "532D1A3A53E86E15"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -1.25d
+			description: ["The &7Safety Tube Module&r will evacuate air if the amount become dangerous. (4.9 bar for normal pressure tube, and 19.9 for the advanced ones)."]
+			dependencies: ["3D27229280E4721A"]
+			id: "4EC9D3492E4B226A"
+			tasks: [{
+				id: "6DED1F1BBD18D627"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 1.25d
+			dependencies: ["1D6C404DCD0EDF10"]
+			id: "744C0D6D821B57D6"
+			tasks: [{
+				id: "021003CC74B2AB8D"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["3D27229280E4721A"]
+			id: "3BA935BDF61356DC"
+			tasks: [{
+				id: "51CA6549758A08DA"
+				type: "item"
+				item: "pneumaticcraft:vortex_tube"
+			}]
+		}
+		{
+			x: -4.185714285714283d
+			y: 4.528571428571432d
+			description: ["You can find &0Crude Oil&r by using the &7Fluid Laser Drill&r."]
+			dependencies: [
+				"5F9416CCC46ECF50"
+				"747FCA3ED5E498F6"
+			]
+			id: "51B87F18CDAA873A"
+			tasks: [{
+				id: "5370D5CF53A57733"
+				type: "item"
+				item: "pneumaticcraft:oil_bucket"
+			}]
+		}
+		{
+			title: "{chapters.pneumaticcraft.quests2.tasks7.title}"
+			x: -1.0d
+			y: 3.0d
+			description: ["The refinery can change a fluid into another, the number of output fluid depends of the number of &0Refinery Output&r you've put on your Refinery."]
+			dependencies: [
+				"744C0D6D821B57D6"
+				"3BA935BDF61356DC"
+			]
+			id: "69BB495E5F9026DD"
+			tasks: [
+				{
+					id: "4461E60D47FA9A6C"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "240C561A542DD506"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.25d
+			description: [
+				"Put &0Crude Oil&r in your &7Refinery&r. Then heat the refinery to 100°C or more."
+				""
+				"You need at least 2 &0Refinery Output&r to get &eLPG&r."
+			]
+			dependencies: [
+				"51B87F18CDAA873A"
+				"69BB495E5F9026DD"
+			]
+			id: "4F1E53EDC9E9A57D"
+			tasks: [{
+				id: "1493740791D7FED0"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			description: [
+				"The &7Thermopneumatic Processing Plant&r (TPP) requires pressures and heat to work."
+				""
+				"This machine can be used to create Molten Plastic by putting &eLPG&r into the TPP."
+			]
+			dependencies: ["4F1E53EDC9E9A57D"]
+			id: "60728EF83DE297DF"
+			tasks: [{
+				id: "159F83CFC474CE99"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 5.5d
+			description: [
+				"Put &eLPG&r and &0Coal&r into the TPP and heat the machine to 100°C to make &7Molten Plastic&r."
+				""
+				"Dont forget to supply your TPP with pressure !"
+			]
+			dependencies: ["60728EF83DE297DF"]
+			id: "750275148B0FB8EE"
+			tasks: [{
+				id: "5A143EC6961426FF"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: [
+				"Put &7Molten Plastic&r in the world."
+				""
+				"You can also attach an &4Heat Frame&r to a Chest, then cool it below 0°C, then put a &7Molten Plastic Bucket&r into the chest to get &7Plastic Sheets&r."
+			]
+			dependencies: ["750275148B0FB8EE"]
+			id: "3951729CFE112EC0"
+			tasks: [{
+				id: "3BCC86EB1CA8A697"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.25d
+			dependencies: [
+				"1D6C404DCD0EDF10"
+				"7961A3188A46EAF8"
+			]
+			id: "1D4E20E4C075EF0F"
+			tasks: [{
+				id: "09D51C68CBBC3815"
+				type: "item"
+				item: "pneumaticcraft:heat_frame"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 2.5d
+			dependencies: [
+				"744C0D6D821B57D6"
+				"3BCC86EB1CA8A697"
+			]
+			id: "19C89E689678E086"
+			tasks: [{
+				id: "256FC38FF744455B"
+				type: "item"
+				item: "pneumaticcraft:medium_tank"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 3.75d
+			dependencies: ["19C89E689678E086"]
+			id: "17150FCD71120653"
+			tasks: [{
+				id: "197F9435750C6FE3"
+				type: "item"
+				item: "pneumaticcraft:large_tank"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 5.0d
+			dependencies: [
+				"17150FCD71120653"
+				"33DA9E75AE5C5CFF"
+			]
+			id: "0DFDD90B5935BD0F"
+			tasks: [{
+				id: "0C6CECB4875EE2CE"
+				type: "item"
+				item: "pneumaticcraft:huge_tank"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 1.5d
+			dependencies: ["3D27229280E4721A"]
+			id: "165F6178B2E2ED4E"
+			tasks: [{
+				id: "0D8A96CDABAEA55C"
+				type: "item"
+				item: "pneumaticcraft:air_canister"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 3.0d
+			dependencies: ["165F6178B2E2ED4E"]
+			id: "04896A6CA13A988F"
+			tasks: [{
+				id: "33DA9E75AE5C5CFF"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:reinforced_air_canister"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1542388038
+							1646021582
+							-1611674854
+							-964178315
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.25d
+			dependencies: ["3951729CFE112EC0"]
+			id: "302B0BF7F945D450"
+			tasks: [{
+				id: "6F24268E099EBEF8"
+				type: "item"
+				item: "pneumaticcraft:gps_tool"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 4.25d
+			dependencies: ["302B0BF7F945D450"]
+			id: "0B305E339C0CB1B9"
+			tasks: [{
+				id: "6EFFA4DDDD3459AC"
+				type: "item"
+				item: "pneumaticcraft:gps_area_tool"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: [
+				"302B0BF7F945D450"
+				"165F6178B2E2ED4E"
+			]
+			id: "41DA6D2994CFCC95"
+			tasks: [{
+				id: "5F65ACE3125EB1E4"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["427C54AC12FAB962"]
+			id: "253848A47E7D7BB2"
+			tasks: [{
+				id: "72E446CE297CD9FF"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -2.5d
+			dependencies: ["427C54AC12FAB962"]
+			id: "7F8F2B29649B0294"
+			tasks: [{
+				id: "7480C53DB0915CEE"
+				type: "item"
+				item: "pneumaticcraft:capacitor"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -2.5d
+			dependencies: ["427C54AC12FAB962"]
+			id: "2A2B023A609C79CF"
+			tasks: [{
+				id: "53A6C29A29BA8E69"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 3.0d
+			dependencies: ["41DA6D2994CFCC95"]
+			id: "7F20077787C71A0D"
+			tasks: [{
+				id: "0BC98C9484B4085E"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 4.25d
+			description: ["Put an &2Empty PCB&r in the &dUV Light Box&r to devolp it. The more your PCB is devoloped, the more Etching Success chance he will have."]
+			dependencies: ["7F20077787C71A0D"]
+			id: "37907CDF17D12BC8"
+			tasks: [{
+				id: "7B06A6D187CD7B82"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 2.0d
+			dependencies: ["19C89E689678E086"]
+			id: "7CB24E0EAFE94A23"
+			tasks: [{
+				id: "79B009CF770D20FF"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 5.5d
+			dependencies: ["3951729CFE112EC0"]
+			id: "56687B92910807C5"
+			tasks: [{
+				id: "209D53DB49903CBE"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 3.75d
+			subtitle: "Almost..."
+			dependencies: [
+				"7CB24E0EAFE94A23"
+				"37907CDF17D12BC8"
+				"56687B92910807C5"
+			]
+			id: "3C23DAF1F7DE69D3"
+			tasks: [{
+				id: "23FCB3473E4E9B19"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 6.25d
+			dependencies: ["60728EF83DE297DF"]
+			id: "1511692C64FA5727"
+			tasks: [{
+				id: "033DE74508DDFC4F"
+				type: "item"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["60728EF83DE297DF"]
+			id: "52CF387E1B4DA21D"
+			tasks: [{
+				id: "13C0347CFF745EE3"
+				type: "item"
+				item: "pneumaticcraft:ethanol_bucket"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 7.5d
+			dependencies: [
+				"1511692C64FA5727"
+				"52CF387E1B4DA21D"
+			]
+			id: "669C5C17F60395E0"
+			tasks: [{
+				id: "1939E182AC2C4249"
+				type: "item"
+				item: "pneumaticcraft:biodiesel_bucket"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 8.25d
+			dependencies: [
+				"1511692C64FA5727"
+				"52CF387E1B4DA21D"
+			]
+			id: "143DAF334F79955F"
+			tasks: [{
+				id: "760F07689F7B6A14"
+				type: "item"
+				item: "pneumaticcraft:glycerol"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["165F6178B2E2ED4E"]
+			id: "64731CCAE97B4E40"
+			tasks: [{
+				id: "74E09A4F4349851C"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_wrench"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.25d
+			dependencies: ["165F6178B2E2ED4E"]
+			id: "41842A538F707114"
+			tasks: [{
+				id: "509A3500EB772E38"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			dependencies: ["669C5C17F60395E0"]
+			id: "39B08EB7D527CB74"
+			tasks: [{
+				id: "75F8B158DD46A6CF"
+				type: "item"
+				item: "pneumaticcraft:lubricant_bucket"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 4.75d
+			subtitle: "It's a fail..."
+			dependencies: [
+				"7CB24E0EAFE94A23"
+				"56687B92910807C5"
+			]
+			id: "2FBC1023C25E5B6C"
+			tasks: [{
+				id: "7D3762E087FD26AF"
+				type: "item"
+				item: "pneumaticcraft:failed_pcb"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.75d
+			subtitle: "Finally !"
+			dependencies: ["3C23DAF1F7DE69D3"]
+			id: "43103F961F7448FE"
+			tasks: [{
+				id: "5783D7BC68A8D51D"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 6.75d
+			dependencies: ["3951729CFE112EC0"]
+			id: "548E1E6C9AC855C8"
+			tasks: [{
+				id: "6B7243C4BD24BF2C"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_cylinder"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 8.0d
+			dependencies: ["548E1E6C9AC855C8"]
+			id: "031CF4A4DFFAE000"
+			tasks: [{
+				id: "2D550607BDCAA0AE"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:jackhammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1542388038
+							1646021582
+							-1611674854
+							-964178315
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Assembly Line"
+			x: 6.0d
+			y: 6.0d
+			description: [
+				"The &9Assembly Line&r is used to make advanced crafts."
+				""
+				"All the blocks have to be in contact and the Laser/Drill have to be in contact with the Assembly Platform."
+				""
+				"You also have to put a chest next the Assembly IO input/output (only 1 chest is needed)."
+				""
+				"{image:kubejs:textures/quests/assembly_line.png width:180 height:100 align:1}"
+			]
+			dependencies: [
+				"43103F961F7448FE"
+				"548E1E6C9AC855C8"
+			]
+			id: "018C56FC2C50EF3F"
+			tasks: [
+				{
+					id: "2BAB980F832D8A37"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+				{
+					id: "69B96DEA364CE08B"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "0D03378E67CB2B30"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "132CFC21B170C71D"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "4E1841B73FBA3854"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "1182D60AB2D10CB1"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+			]
+		}
+		{
+			x: 7.25d
+			y: 6.75d
+			dependencies: ["018C56FC2C50EF3F"]
+			id: "7C3B300F31748C73"
+			tasks: [{
+				id: "60789D34FDCCDF5E"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_laser"
+			}]
+		}
+		{
+			x: 7.25d
+			y: 5.5d
+			dependencies: ["018C56FC2C50EF3F"]
+			id: "20AED3987D2B3B3A"
+			tasks: [{
+				id: "77DB72BFB93506FB"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.0d
+			dependencies: [
+				"7C3B300F31748C73"
+				"20AED3987D2B3B3A"
+			]
+			id: "4AFD22220B00E693"
+			tasks: [{
+				id: "7742CCF2BAEB40C9"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.75d
+			dependencies: ["427C54AC12FAB962"]
+			id: "295F9BB2EC5FAD1A"
+			tasks: [{
+				id: "6008018013C65212"
+				type: "item"
+				item: "pneumaticcraft:turbine_blade"
+				count: 3L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["295F9BB2EC5FAD1A"]
+			id: "6B6371EA1DAEAB80"
+			tasks: [{
+				id: "54D84C873192658E"
+				type: "item"
+				item: "pneumaticcraft:turbine_rotor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.75d
+			dependencies: [
+				"43103F961F7448FE"
+				"54D84C873192658E"
+			]
+			id: "674368BED7E1BE03"
+			tasks: [{
+				id: "41EA4B04C0D60B7D"
+				type: "item"
+				item: "pneumaticcraft:programmer"
+			}]
+		}
+		{
+			x: 7.25d
+			y: 3.75d
+			dependencies: ["43103F961F7448FE"]
+			id: "3B5A982BFC086EBB"
+			tasks: [{
+				id: "1F8C1A242BB80EDA"
+				type: "item"
+				item: "pneumaticcraft:programming_puzzle"
+				count: 8L
+			}]
+		}
+		{
+			x: 8.25d
+			y: 4.75d
+			dependencies: ["43103F961F7448FE"]
+			id: "1988E5760331AC65"
+			tasks: [{
+				id: "0C7B5112FFD8492D"
+				type: "item"
+				item: "pneumaticcraft:drone"
+			}]
+		}
+		{
+			x: 8.25d
+			y: 3.75d
+			shape: "gear"
+			description: ["Program your first Drone."]
+			dependencies: ["1988E5760331AC65"]
+			id: "67D83375DB78A224"
+			tasks: [{
+				id: "24B0CC0E225BC338"
+				type: "advancement"
+				advancement: "pneumaticcraft:program_drone"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.75d
+			y: 8.0d
+			dependencies: ["7C3B300F31748C73"]
+			id: "1A950188489BD003"
+			tasks: [{
+				id: "3BA574258DA89C92"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				count: 8L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.0d
+			dependencies: ["7C3B300F31748C73"]
+			id: "44247D1D669FA877"
+			tasks: [{
+				id: "7FC76761777D8704"
+				type: "item"
+				item: "pneumaticcraft:aphorism_tile"
+				count: 4L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["1D6C404DCD0EDF10"]
+			id: "7A5D129B8585D145"
+			tasks: [{
+				id: "1F117E9DB64E5372"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["1D6C404DCD0EDF10"]
+			id: "329F044CBB069765"
+			tasks: [{
+				id: "3691E9CC17530AF8"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["1D6C404DCD0EDF10"]
+			id: "211FCC410CE7FD62"
+			tasks: [{
+				id: "431FE939DBDE29A3"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["1D6C404DCD0EDF10"]
+			id: "6E6B1555FF5A7C96"
+			tasks: [{
+				id: "1C1A71DB3A7F2DAF"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:compressed_iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: [
+				"7A5D129B8585D145"
+				"5783D7BC68A8D51D"
+				"0D8A96CDABAEA55C"
+			]
+			id: "352C336FB4F0683E"
+			tasks: [{
+				id: "48497614536C56F1"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			dependencies: [
+				"329F044CBB069765"
+				"5783D7BC68A8D51D"
+				"0D8A96CDABAEA55C"
+			]
+			id: "7BC05480316DF8D5"
+			tasks: [{
+				id: "26E1F8747FF08A0B"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: [
+				"211FCC410CE7FD62"
+				"5783D7BC68A8D51D"
+				"0D8A96CDABAEA55C"
+			]
+			id: "73F85743FD2EBD43"
+			tasks: [{
+				id: "540A638070BBE001"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: [
+				"6E6B1555FF5A7C96"
+				"5783D7BC68A8D51D"
+				"0D8A96CDABAEA55C"
+			]
+			id: "4840993D478AA249"
+			tasks: [{
+				id: "7C0658FFC8527E98"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.75d
+			y: 9.25d
+			description: ["Converts FE in Air."]
+			dependencies: ["1A950188489BD003"]
+			id: "626734957E857115"
+			tasks: [{
+				id: "79111FF92B1637EC"
+				type: "item"
+				item: "pneumaticcraft:flux_compressor"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 9.25d
+			description: ["Converts Air in FE."]
+			dependencies: ["1A950188489BD003"]
+			id: "4DC7FC0EB382C0C0"
+			tasks: [{
+				id: "30ACFD3142C44816"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_dynamo"
+			}]
+		}
+		{
+			x: 4.75d
+			y: 5.75d
+			dependencies: ["43103F961F7448FE"]
+			id: "686A74F42BD48052"
+			tasks: [{
+				id: "71C784803A76BA93"
+				type: "item"
+				item: "pneumaticcraft:advanced_pcb"
+			}]
+		}
+	]
+}

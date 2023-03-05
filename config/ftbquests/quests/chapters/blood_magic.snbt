@@ -1,0 +1,1342 @@
+{
+	id: "75D3A5CF33725822"
+	group: "062FAFBC121F7BEA"
+	order_index: 2
+	filename: "blood_magic"
+	title: "{chapters.blood_magic.title}"
+	icon: "bloodmagic:soulforge"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			description: ["{chapters.blood_magic.quests1.description}"]
+			dependencies: ["2FCC2E230DACD719"]
+			id: "737D5E50C20728D4"
+			tasks: [{
+				id: "78FDFECAE0A132FA"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+				count: 4L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.75d
+			dependencies: ["737D5E50C20728D4"]
+			id: "46C40C1F7F6407C5"
+			tasks: [{
+				id: "1EC0F5CB61AA863B"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: [
+				"46C40C1F7F6407C5"
+				"002EFBB7ED0E4E76"
+				"011FA09FA8F0BE57"
+			]
+			id: "0A559DCE04710BA2"
+			tasks: [{
+				id: "2740F783D52FF3AA"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.75d
+			description: ["{chapters.blood_magic.quests4.description}"]
+			id: "051C46287E4E5E95"
+			tasks: [{
+				id: "25277B1CEA569B04"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.25d
+			dependencies: ["0A559DCE04710BA2"]
+			id: "2A33EA10B8A527A2"
+			tasks: [{
+				id: "3015463CD83301A3"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -4.25d
+			dependencies: ["0A559DCE04710BA2"]
+			id: "26F1219DB951C375"
+			tasks: [{
+				id: "6B72104660FEBA9C"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -4.25d
+			shape: "hexagon"
+			dependencies: ["2A33EA10B8A527A2"]
+			id: "1F4A39BF657B5BE3"
+			tasks: [{
+				id: "600787EF94E76C26"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			shape: "hexagon"
+			dependencies: [
+				"2A33EA10B8A527A2"
+				"26F1219DB951C375"
+			]
+			id: "5D7E530C3A7C1BB4"
+			tasks: [{
+				id: "50AA0B31E847B8F3"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.25d
+			description: ["The &7Arcane Ashes&r is used to craft Sigils and a few other stuff."]
+			dependencies: ["1F4A39BF657B5BE3"]
+			id: "070879002D316158"
+			tasks: [{
+				id: "74BDF2BAC336CEC7"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			description: ["The &eDivination Sigil&r will show you how much LP you have in you &cBlood Altar&r."]
+			dependencies: ["070879002D316158"]
+			id: "5FA0ADBAB7F13DF3"
+			tasks: [{
+				id: "1F5CD9FDA3CD0725"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -5.5d
+			description: ["The &bPetty Tartaric Gem&r can store 64 will. To add will into your gem, just collect will like you usually do with the gem in your inventory. The collected Will will be stored into your Tartaric Gem."]
+			dependencies: ["5D7E530C3A7C1BB4"]
+			id: "7A5C70580662023E"
+			tasks: [{
+				id: "4A1A6B15714FB550"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: -6.75d
+			description: ["Can store 256 Will."]
+			dependencies: ["7A5C70580662023E"]
+			id: "0389724FB8503B43"
+			tasks: [{
+				id: "619EF17BAEAB4BF0"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: {
+						souls: 256.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -2.25d
+			y: -8.0d
+			description: ["Can store 1024 Will."]
+			dependencies: ["0389724FB8503B43"]
+			id: "6B858924C0790119"
+			tasks: [{
+				id: "45269F41EAC8C6C0"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 1024.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.0d
+			description: ["Can store 4096 Will."]
+			dependencies: ["6B858924C0790119"]
+			id: "1456972739B7DDE3"
+			tasks: [{
+				id: "6E5141E0AC60C2D0"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 4096.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.25d
+			y: -5.5d
+			dependencies: [
+				"2A33EA10B8A527A2"
+				"26F1219DB951C375"
+			]
+			id: "3B42C431249BAD07"
+			tasks: [{
+				id: "458AC2907B2061DB"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+		}
+		{
+			x: 3.75d
+			y: -4.5d
+			shape: "diamond"
+			description: ["The &bSpeed Rune&r increase the speed of all crafts in the &4Blood Altar&r by 20%."]
+			hide_dependency_lines: true
+			dependencies: ["3B42C431249BAD07"]
+			id: "2BC419CDCD744058"
+			tasks: [{
+				id: "231E96A914300D30"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.25d
+			dependencies: ["26F1219DB951C375"]
+			id: "29EB3BE6758DB8A1"
+			tasks: [{
+				id: "09DDEEEDE25E1645"
+				type: "item"
+				item: "bloodmagic:lavacrystal"
+			}]
+		}
+		{
+			title: "{chapters.blood_magic.quests4.tasks12.title}"
+			x: 0.25d
+			y: -6.75d
+			shape: "hexagon"
+			dependencies: ["3B42C431249BAD07"]
+			id: "6AF992FF2C4C3DE6"
+			tasks: [{
+				id: "0B862CD33E37C8BC"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.75d
+			dependencies: ["6AF992FF2C4C3DE6"]
+			id: "5198762D8F058191"
+			tasks: [{
+				id: "22EA3AD5FB639267"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.75d
+			dependencies: ["6AF992FF2C4C3DE6"]
+			id: "592F1EFA1D958E9B"
+			tasks: [{
+				id: "0CD0662E8B5662A3"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -6.75d
+			description: ["With this Dagger, you can get LPs without hurting yourself but by killing any mobs near of the Blood Altar."]
+			dependencies: ["6AF992FF2C4C3DE6"]
+			id: "10893D8C8C4B2E75"
+			tasks: [{
+				id: "61801FA5A0C1193D"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -5.5d
+			shape: "diamond"
+			description: ["This Rune increase the amount of LP you get when you sacrifice other mobs with the &7Dagger of Sacrifice&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5198762D8F058191"
+				"592F1EFA1D958E9B"
+			]
+			id: "454280A1CC83A7CD"
+			tasks: [{
+				id: "71AB6FE33FAFBBB5"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -5.0d
+			shape: "diamond"
+			description: ["This Rune increase the amount of LP you get when you sacrifice yourself."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5198762D8F058191"
+				"592F1EFA1D958E9B"
+			]
+			id: "2567C7318CF04261"
+			tasks: [{
+				id: "1A32317FF386B2D7"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -4.25d
+			dependencies: [
+				"070879002D316158"
+				"6B72104660FEBA9C"
+				"3015463CD83301A3"
+			]
+			id: "0CAA9EAC3F80BE11"
+			tasks: [{
+				id: "2C0DA4893321FE80"
+				type: "item"
+				item: "bloodmagic:reagentwater"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.25d
+			description: ["The &3Water Sigil&r uses LP to place Water."]
+			dependencies: [
+				"0CAA9EAC3F80BE11"
+				"6B72104660FEBA9C"
+				"3015463CD83301A3"
+			]
+			id: "593121E1F3F9801E"
+			tasks: [{
+				id: "43FFC24DA9CFA5CF"
+				type: "item"
+				item: "bloodmagic:watersigil"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -5.5d
+			dependencies: [
+				"070879002D316158"
+				"3015463CD83301A3"
+				"6B72104660FEBA9C"
+			]
+			id: "2BDC743920E365DB"
+			tasks: [{
+				id: "2D79AD5A0EE09E55"
+				type: "item"
+				item: "bloodmagic:reagentlava"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			description: ["The &eLava Sigil&r uses LP to place Lava."]
+			dependencies: [
+				"2BDC743920E365DB"
+				"3015463CD83301A3"
+				"6B72104660FEBA9C"
+			]
+			id: "79F4E36335CEEF5F"
+			tasks: [{
+				id: "1E5D25BC1D6F95AE"
+				type: "item"
+				item: "bloodmagic:lavasigil"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -3.0d
+			dependencies: [
+				"070879002D316158"
+				"0CD0662E8B5662A3"
+			]
+			id: "44B8E268F8BDEF57"
+			tasks: [{
+				id: "3A7AB3F133701CAF"
+				type: "item"
+				item: "bloodmagic:reagentgrowth"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			description: [
+				"The &2Sigil of the Green Grove&r have multiple uses :"
+				""
+				"First, you can use it like Bone Meal."
+				"Secondly, sneak right click in air to drain 150 LP every 5 second to accelerate the growth of everything in a 7x7x5 range."
+			]
+			dependencies: [
+				"44B8E268F8BDEF57"
+				"22EA3AD5FB639267"
+			]
+			id: "0C1BE160721FC5E1"
+			tasks: [{
+				id: "547D417A4FFF13CD"
+				type: "item"
+				item: {
+					id: "bloodmagic:growthsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: -1.75d
+			dependencies: [
+				"070879002D316158"
+				"0CD0662E8B5662A3"
+			]
+			id: "188D803C42E608B7"
+			tasks: [{
+				id: "31A291A5B1F9C822"
+				type: "item"
+				item: "bloodmagic:reagentfastminer"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.75d
+			description: ["When you shift right click with the &6Sigil of the Fast Miner&r in your hand, you will get a Haste effect, but every 5 seconds, the Sigil will use 100LP."]
+			dependencies: [
+				"188D803C42E608B7"
+				"22EA3AD5FB639267"
+			]
+			id: "7C71ACCF3EE9399F"
+			tasks: [{
+				id: "2160E2A96B0CFDBD"
+				type: "item"
+				item: {
+					id: "bloodmagic:miningsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: -6.75d
+			dependencies: [
+				"070879002D316158"
+				"6B72104660FEBA9C"
+			]
+			id: "7DC0EF32DBFFAFE6"
+			tasks: [{
+				id: "3C96CE96502659CF"
+				type: "item"
+				item: "bloodmagic:reagentsight"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.75d
+			description: ["An upgraded version of the Divination Sigil who displays more informations."]
+			dependencies: [
+				"7DC0EF32DBFFAFE6"
+				"22EA3AD5FB639267"
+			]
+			id: "6BCF05D214283683"
+			tasks: [{
+				id: "63E44315F5F931DE"
+				type: "item"
+				item: "bloodmagic:seersigil"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -8.0d
+			dependencies: [
+				"070879002D316158"
+				"0CD0662E8B5662A3"
+			]
+			id: "51A06AD44B7DE50A"
+			tasks: [{
+				id: "13062A968DF07A34"
+				type: "item"
+				item: "bloodmagic:reagentvoid"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.0d
+			description: ["When you right click with the &5Void Sigil&r in your hand, it will destroy the fluid you are looking and use 50LP."]
+			dependencies: [
+				"51A06AD44B7DE50A"
+				"22EA3AD5FB639267"
+			]
+			id: "2FB90869150BF7E7"
+			tasks: [{
+				id: "6E005EB13CC1F4D5"
+				type: "item"
+				item: "bloodmagic:voidsigil"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -0.5d
+			dependencies: [
+				"070879002D316158"
+				"0CD0662E8B5662A3"
+			]
+			id: "7F112FD9E5D55602"
+			tasks: [{
+				id: "044A5F0098FBA705"
+				type: "item"
+				item: "bloodmagic:reagentair"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			description: [
+				"The &bAir Sigil&r will throw you in the direction you're facing by using 50LP for every jump."
+				"There is no Feather Falling effect, so be carefull !"
+			]
+			dependencies: [
+				"7F112FD9E5D55602"
+				"22EA3AD5FB639267"
+			]
+			id: "77FFA7B36F06B29D"
+			tasks: [{
+				id: "3CFB71A2CD46D713"
+				type: "item"
+				item: {
+					id: "bloodmagic:airsigil"
+					Count: 1b
+					tag: {
+						binding: {
+							name: "staniscraft"
+							id: [I;
+								-1542388038
+								1646021582
+								-1611674854
+								-964178315
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: -9.25d
+			dependencies: ["070879002D316158"]
+			id: "79B1B531ECB235D7"
+			tasks: [{
+				id: "29D44B31FA9E25A7"
+				type: "item"
+				item: "bloodmagic:reagentholding"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.25d
+			description: ["The &6Sigil of Holding&r can store 5 other Sigils. To choose wich Sigil you want to use, scroll when you are sneaking."]
+			dependencies: ["79B1B531ECB235D7"]
+			id: "4D87D5B2BE4BBCB9"
+			tasks: [{
+				id: "3E5311F5CCA0630C"
+				type: "item"
+				item: {
+					id: "bloodmagic:sigilofholding"
+					Count: 1b
+					tag: {
+						currentSigil: 0
+						binding: {
+							name: "staniscraft"
+							id: [I;
+								-1542388038
+								1646021582
+								-1611674854
+								-964178315
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Sentient Stuff"
+			x: -3.25d
+			y: -6.0d
+			dependencies: ["7A5C70580662023E"]
+			id: "47FBF882B0417565"
+			tasks: [
+				{
+					id: "05413109C146C5B6"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03E0B10206B7F5C0"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A8412E4BB5BA646"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulpickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3CCC8A43462AFCE0"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulshovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "502B016EA6E8737F"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulscythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tier 3 Blood Altar"
+			x: 0.25d
+			y: -8.75d
+			shape: "hexagon"
+			dependencies: ["6AF992FF2C4C3DE6"]
+			id: "07117864A0715F34"
+			tasks: [
+				{
+					id: "10AA76D741F6E64B"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 20L
+				}
+				{
+					id: "4BFA47357EAA657A"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8L
+				}
+				{
+					id: "43407680898539BF"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -9.75d
+			dependencies: [
+				"07117864A0715F34"
+				"5198762D8F058191"
+			]
+			id: "2C51906403A75065"
+			tasks: [{
+				id: "1CD90B78F6828AE7"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.75d
+			dependencies: ["07117864A0715F34"]
+			id: "3D77B55B9EF0746A"
+			tasks: [{
+				id: "489828719BAB868A"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -8.75d
+			description: ["The &bRitual Diviner&r is very usefull for building &2Rituals&r."]
+			dependencies: ["07117864A0715F34"]
+			id: "188FFBC1994B9518"
+			tasks: [{
+				id: "736DD40F079FEEFF"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.75d
+			dependencies: [
+				"5198762D8F058191"
+				"592F1EFA1D958E9B"
+			]
+			id: "1B77519B87D8CF68"
+			tasks: [{
+				id: "4383B187DE370974"
+				type: "item"
+				item: "bloodmagic:ritualstone"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -9.75d
+			dependencies: [
+				"1B77519B87D8CF68"
+				"3D77B55B9EF0746A"
+			]
+			id: "7873B81AA84691F7"
+			tasks: [{
+				id: "1238E6C606FF7295"
+				type: "item"
+				item: "bloodmagic:masterritualstone"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -5.0d
+			shape: "diamond"
+			description: ["The &6Rune of Capacity&r increase the max stocked blood in your &4Blood Altar&r by 20% per rune."]
+			hide_dependency_lines: true
+			dependencies: ["2C51906403A75065"]
+			id: "2634B69F87E56893"
+			tasks: [{
+				id: "6E05B2CF964D89A6"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -4.5d
+			shape: "diamond"
+			description: ["Accelerate the IO speed ofthe &4Blood Altar&r when you use external tanks."]
+			hide_dependency_lines: true
+			dependencies: ["2C51906403A75065"]
+			id: "314A500DEBF3AD6E"
+			tasks: [{
+				id: "5D2CD26C13AD7DBD"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 0.75d
+			dependencies: [
+				"070879002D316158"
+				"489828719BAB868A"
+			]
+			id: "631DEB79F6B0A367"
+			tasks: [{
+				id: "07516BBA1282F79B"
+				type: "item"
+				item: "bloodmagic:reagentmagnetism"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.75d
+			description: ["Active with a sneak left click for increase your item picku range to 7 blocks. Uses 50 LP every 5 seconds."]
+			dependencies: [
+				"631DEB79F6B0A367"
+				"1CD90B78F6828AE7"
+			]
+			id: "1F92A4EEEEDB1665"
+			tasks: [{
+				id: "5C606E86070951DB"
+				type: "item"
+				item: {
+					id: "bloodmagic:sigilofmagnetism"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.75d
+			y: -10.5d
+			dependencies: [
+				"070879002D316158"
+				"489828719BAB868A"
+			]
+			id: "2A8E03F8CB135E34"
+			tasks: [{
+				id: "4030EC398360D2AE"
+				type: "item"
+				item: "bloodmagic:reagentbloodlight"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			description: ["The &eSigil of the Blood Lamp&r uses 10 LP to create a Blood Light where you face."]
+			dependencies: [
+				"2A8E03F8CB135E34"
+				"1CD90B78F6828AE7"
+			]
+			id: "55C7E4217C90FFF1"
+			tasks: [{
+				id: "53C8C20DFC4FF1D6"
+				type: "item"
+				item: "bloodmagic:bloodlightsigil"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 2.0d
+			dependencies: ["070879002D316158"]
+			id: "787C0C5FE2B6A30F"
+			tasks: [{
+				id: "1335B81A73280789"
+				type: "item"
+				item: "bloodmagic:reagentbinding"
+			}]
+		}
+		{
+			x: -6.75d
+			y: 2.0d
+			dependencies: ["787C0C5FE2B6A30F"]
+			id: "7924F1B02DDD789C"
+			tasks: [{
+				id: "0207A4E651A8A227"
+				type: "item"
+				item: {
+					id: "bloodmagic:livinghelmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			dependencies: ["787C0C5FE2B6A30F"]
+			id: "46DA38909E965A9B"
+			tasks: [{
+				id: "1611BED0CDFE4555"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						livingStats: {
+							maxPoints: 100
+							upgrades: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["787C0C5FE2B6A30F"]
+			id: "32A1186D0C5EA0C6"
+			tasks: [{
+				id: "26EE8E06A30FFF81"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingleggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.25d
+			dependencies: ["787C0C5FE2B6A30F"]
+			id: "4C9C269FB8D7935E"
+			tasks: [{
+				id: "59073C1EF8EE5DF5"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.25d
+			dependencies: ["787C0C5FE2B6A30F"]
+			id: "0FBADD1F03C80EAA"
+			tasks: [{
+				id: "1AC21C242BABB957"
+				type: "item"
+				item: "bloodmagic:upgradetrainer"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -9.25d
+			description: [
+				"The &bDemon Crystallizer&r is used to produce &bWill Crystals&r by using will in air."
+				""
+				"If you have more than 1024 will in your inventory, you can harvest the crystals by a right click and keep the central crystal."
+				""
+				"But if you really need to, you can just break the whole lot with a pickaxe, but you will lose Will if you do this."
+				""
+				"You need 100 Will for the core crystal and 40 for each spires."
+			]
+			dependencies: ["6B858924C0790119"]
+			id: "027EF3E9D7D93483"
+			tasks: [{
+				id: "0EEFA793C73B250E"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+		}
+		{
+			x: -1.75d
+			y: -9.25d
+			description: ["You can put your &bWill Crystals&r here to put 50 Will in the air."]
+			dependencies: ["6B858924C0790119"]
+			id: "43F0DFF00D2D4F62"
+			tasks: [{
+				id: "4E04B65B05D54D43"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+		}
+		{
+			icon: "bloodmagic:inversion_pillar"
+			x: 4.25d
+			y: -7.75d
+			description: [
+				"The &bEdge of the Hidden Realm&r will allow you to enter into the &bDemon Realm&r dimension. First you need to build the right structure (use the Ritual Diviner for help)."
+				"To get the needed Ritual Stones right click with &6Inscription Tools&r on a Ritual Stone."
+				""
+				"Then, activate the ritual by right clicking on the &7Master Ritual Stone&r with a &4Weak Activation Crystal&r."
+				""
+				"You need 80 000 LP to activate this ritual."
+				""
+				"Before :"
+				""
+				"{image:kubejs:textures/quests/edge_realm_ritual1.png width:180 height:100 align:1}"
+				""
+				"After :"
+				""
+				"{image:kubejs:textures/quests/edge_realm_ritual2.png width:180 height:100 align:1}"
+			]
+			dependencies: ["188FFBC1994B9518"]
+			id: "10DF658068871934"
+			tasks: [{
+				id: "6589C00C16CEA3A5"
+				type: "checkmark"
+				title: "Edge of the Hidden Realm"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.75d
+			description: ["Right click on the pillar to enter into the &bDemon Realm&r."]
+			dependencies: ["10DF658068871934"]
+			id: "2218994517E46802"
+			tasks: [{
+				id: "18C6235CBA2CD52E"
+				type: "dimension"
+				title: "Visit the Demon Realm"
+				dimension: "bloodmagic:dungeon"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			description: ["You can find &eSaturated Tau&r in the Demon Realm's chests."]
+			dependencies: ["2218994517E46802"]
+			id: "0E6B04109AB94EA8"
+			tasks: [{
+				id: "23ED06709633C794"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -10.75d
+			dependencies: [
+				"2C51906403A75065"
+				"3D77B55B9EF0746A"
+			]
+			id: "3DA350DEE021A961"
+			tasks: [{
+				id: "3DDBF45D6959D9B4"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -12.0d
+			dependencies: [
+				"3DA350DEE021A961"
+				"23ED06709633C794"
+			]
+			id: "304820882339CE22"
+			tasks: [{
+				id: "56E908F8BA63E62E"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.75d
+			description: ["The &7Iron Key&r is used to open doors in the &bDemon Realm&r."]
+			dependencies: ["2C51906403A75065"]
+			id: "5153E7342AAA34BF"
+			tasks: [{
+				id: "176DF5EC6CADD10B"
+				type: "item"
+				item: "bloodmagic:simplekey"
+			}]
+		}
+		{
+			title: "Tier 4 Blood Altar"
+			x: 0.25d
+			y: -13.25d
+			shape: "hexagon"
+			dependencies: ["304820882339CE22"]
+			id: "504495B49D0BCC51"
+			tasks: [
+				{
+					id: "662CBF3ABB909DD6"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "29713D42F53D3458"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16L
+				}
+				{
+					id: "3D120DB36A6B5E5E"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -14.25d
+			dependencies: [
+				"504495B49D0BCC51"
+				"2C51906403A75065"
+			]
+			id: "601D3A025C83F085"
+			tasks: [{
+				id: "44CDE9975B4130A4"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -14.25d
+			dependencies: ["504495B49D0BCC51"]
+			id: "78D0FF41F8402FCD"
+			tasks: [{
+				id: "6ABD026ECE56A407"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -10.5d
+			dependencies: ["027EF3E9D7D93483"]
+			id: "14C59919C8041897"
+			tasks: [{
+				id: "3707B7E64278D96E"
+				type: "item"
+				item: "bloodmagic:defaultcrystal"
+			}]
+		}
+		{
+			icon: "bloodmagic:corrosivedemoncrystal"
+			x: 4.25d
+			y: -8.75d
+			description: [
+				"The &eResonance of the Faceted Crystal&r is used to get other types of &bWill Crystal&r."
+				""
+				"To perform this ritual, you need to build the right structure (use the Ritual Diviner for help)."
+				""
+				"It's recommended to put a &bHellfire Forge&r on the top of the &7Master Ritual Stone&r to make things easier. "
+				""
+				"You need to have a &bWill Crystal&r with at least 5 spills. If you have it, right click with a &4Weak Activation Crystal&r on the &7Master Ritual Stone&r."
+				""
+				"After a short time, 1 of each type of Will Crystal Cluster will spawn."
+				""
+				"{image:kubejs:textures/quests/resonance_crystal.png width:190 height:100 align:1}"
+			]
+			dependencies: ["188FFBC1994B9518"]
+			id: "066EA427D270D6C1"
+			tasks: [{
+				id: "3D6C5CCE73E427AA"
+				type: "checkmark"
+				title: "Resonance of the Faceted Crystal"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -8.75d
+			dependencies: ["066EA427D270D6C1"]
+			id: "2092D09E292104FA"
+			tasks: [{
+				id: "1A8A2E2D6897491A"
+				type: "item"
+				item: "bloodmagic:corrosivecrystal"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -10.25d
+			dependencies: ["066EA427D270D6C1"]
+			id: "5C9B7951EFE26D8F"
+			tasks: [{
+				id: "1C9DBB9815823E5F"
+				type: "item"
+				item: "bloodmagic:destructivecrystal"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -9.75d
+			dependencies: ["066EA427D270D6C1"]
+			id: "10922F7518A56E60"
+			tasks: [{
+				id: "2DCC66F53942BD03"
+				type: "item"
+				item: "bloodmagic:steadfastcrystal"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -10.75d
+			dependencies: ["066EA427D270D6C1"]
+			id: "6B552C8F0089E927"
+			tasks: [{
+				id: "32F19F1C45E733F7"
+				type: "item"
+				item: "bloodmagic:vengefulcrystal"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -4.0d
+			shape: "diamond"
+			description: ["The &3Acceleration Rune&r accelerates the &aCharging Rune&r and the &9Displacment Rune&r."]
+			hide_dependency_lines: true
+			dependencies: [
+				"601D3A025C83F085"
+				"78D0FF41F8402FCD"
+				"2BC419CDCD744058"
+			]
+			id: "1A5097C1B4089377"
+			tasks: [{
+				id: "0D7E853D37FBFE52"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -4.5d
+			shape: "diamond"
+			description: [
+				"The &4Rune of Capacity&r increase the max stocked blood in your &4Blood Altar&r by 7.5% per rune."
+				""
+				"Note : the Runes of Augmented Capacity are applied &nafter&r the Runes of Capacity."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2634B69F87E56893"
+				"601D3A025C83F085"
+				"78D0FF41F8402FCD"
+			]
+			id: "2AAD3251E27C9E21"
+			tasks: [{
+				id: "72E1FD84131DCF71"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -4.0d
+			shape: "diamond"
+			description: ["The &3Rune of the Orb&r increase the capacity of the &4Blood Orb&r into the altar by 2%."]
+			hide_dependency_lines: true
+			dependencies: ["78D0FF41F8402FCD"]
+			id: "2161332926B7343F"
+			tasks: [{
+				id: "7018D8E59B80C83A"
+				type: "item"
+				item: "bloodmagic:orbcapacityrune"
+			}]
+		}
+		{
+			x: 4.75d
+			y: -3.5d
+			shape: "diamond"
+			id: "0D0543788181E156"
+			tasks: [{
+				id: "2E19F59677F4D4FF"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+		}
+		{
+			title: "Tier 5 Blood Altar"
+			x: 2.0d
+			y: -13.25d
+			shape: "hexagon"
+			dependencies: ["504495B49D0BCC51"]
+			id: "138379D7E26C925E"
+			tasks: [
+				{
+					id: "2A39CDE8C5A80D12"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 52L
+				}
+				{
+					id: "4EC4AF378F87BFFC"
+					type: "item"
+					item: "minecraft:beacon"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 2.5714285714285765d
+			y: -10.458333333333329d
+			hide_dependency_lines: false
+			dependencies: ["07117864A0715F34"]
+			id: "19E00DDCC7A530C4"
+			tasks: [{
+				id: "7B208DE7FC3849BC"
+				type: "item"
+				item: "bloodmagic:activationcrystalweak"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -12.0d
+			dependencies: ["138379D7E26C925E"]
+			id: "1A20DFBD1AB21433"
+			tasks: [{
+				id: "0D093FD1C9C2CD78"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -3.0d
+			dependencies: ["0A559DCE04710BA2"]
+			id: "6BEA8DA6199F640E"
+			tasks: [{
+				id: "5CE455DB226CFD9D"
+				type: "item"
+				item: "bloodmagic:life_essence_bucket"
+			}]
+		}
+	]
+}

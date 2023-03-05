@@ -1,0 +1,340 @@
+{
+	id: "54D0D16783E9FC89"
+	group: "7D5BC8F7E9F44586"
+	order_index: 4
+	filename: "storage"
+	title: "{chapters.storage.title}"
+	icon: "minecraft:chest"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["3DD7EEC492812249"]
+			id: "7F30764EF8765C2A"
+			tasks: [{
+				id: "13582495211CA7CD"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["7F30764EF8765C2A"]
+			id: "5A931C5857836C2B"
+			tasks: [{
+				id: "1B876824198906CA"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["5A931C5857836C2B"]
+			id: "1AE3A0E4628AC7A4"
+			tasks: [{
+				id: "16775B2C9ED65C02"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["1AE3A0E4628AC7A4"]
+			id: "7C7AB60C2929CB3E"
+			tasks: [{
+				id: "2603629018FC2681"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["7C7AB60C2929CB3E"]
+			id: "1C939AB2AB18B25F"
+			tasks: [{
+				id: "4DD1BA1215F1EAAD"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["7C7AB60C2929CB3E"]
+			id: "23A342C9FD4C9FB6"
+			tasks: [{
+				id: "6DD60226EF30A298"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["7F30764EF8765C2A"]
+			id: "07315B2725081516"
+			tasks: [{
+				id: "606876E8BBF24032"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: [
+				"07315B2725081516"
+				"5A931C5857836C2B"
+			]
+			dependency_requirement: "one_completed"
+			id: "5A392358240102D1"
+			tasks: [{
+				id: "17CEB1450ECCA1ED"
+				type: "item"
+				item: "ironchest:silver_chest"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["3DD7EEC492812249"]
+			id: "5DBBCE8F0BA168D3"
+			tasks: [{
+				id: "1E166BD27D8CE791"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["3DD7EEC492812249"]
+			id: "3D1077C62B495E94"
+			tasks: [{
+				id: "02A74217D67986C9"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_2"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["3DD7EEC492812249"]
+			id: "380A679FAD6C3324"
+			tasks: [{
+				id: "14C6838E85BD83AB"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: [
+				"3D1077C62B495E94"
+				"5DBBCE8F0BA168D3"
+				"380A679FAD6C3324"
+			]
+			dependency_requirement: "one_completed"
+			id: "3E2961C252BB4914"
+			tasks: [{
+				id: "06710710E999F882"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["3E2961C252BB4914"]
+			id: "62DA79141A758253"
+			tasks: [{
+				id: "0DF5B881434AE0A1"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["62DA79141A758253"]
+			id: "1DD95A896A777B33"
+			tasks: [{
+				id: "01D4E41747C2D517"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["1DD95A896A777B33"]
+			id: "7377AF508703C4FE"
+			tasks: [{
+				id: "6ED5A5E0BAA4A515"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["7377AF508703C4FE"]
+			id: "134492765132F850"
+			tasks: [{
+				id: "55EC7B2752954964"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["134492765132F850"]
+			id: "26701666F851468C"
+			tasks: [{
+				id: "04D8BC5CE3E11688"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "42AB633D824828EB"
+			tasks: [{
+				id: "07D542121A45E683"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "26DC398A73E1372B"
+			tasks: [{
+				id: "505FEF72304B87DA"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "0B44D63317699BFF"
+			tasks: [{
+				id: "5FEAACBBD9C2CAAC"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "4FE5AD622BC557B8"
+			tasks: [{
+				id: "7B709EDDC48FEDB5"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "46CB461E0EBD4581"
+			tasks: [{
+				id: "1C4CAB19E79BFB11"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "290B9654C8E9CCE3"
+			tasks: [{
+				id: "6C9ED118F53422D1"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "2F7352AA8E8D467D"
+			tasks: [{
+				id: "5862ED45636BB57A"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			shape: "pentagon"
+			dependencies: ["3E2961C252BB4914"]
+			id: "62358462883D93A4"
+			tasks: [{
+				id: "30633125B48DE28F"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			shape: "octagon"
+			dependencies: [
+				"26701666F851468C"
+				"7377AF508703C4FE"
+				"134492765132F850"
+				"62DA79141A758253"
+				"1DD95A896A777B33"
+				"26DC398A73E1372B"
+				"46CB461E0EBD4581"
+				"290B9654C8E9CCE3"
+				"2F7352AA8E8D467D"
+				"62358462883D93A4"
+				"4FE5AD622BC557B8"
+				"42AB633D824828EB"
+				"0B44D63317699BFF"
+			]
+			size: 1.5d
+			id: "0F0DE716AE4F0471"
+			tasks: [{
+				id: "050EFD48A996FECE"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1810 @@
+{
+	id: "4B6C6E75C480F701"
+	group: "3AFD8280D5598700"
+	order_index: 11
+	filename: "mekanism"
+	title: "{chapters.mekanism.title}"
+	icon: "mekanism:alloy_reinforced"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["20CFD372327AAA73"]
+			id: "7DE31A2B6A4B97B2"
+			tasks: [{
+				id: "5F90C5B813144733"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["7DE31A2B6A4B97B2"]
+			id: "04B607932F18BA09"
+			tasks: [{
+				id: "6A2F8E1DF41F4575"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["04B607932F18BA09"]
+			id: "326F52790B22EC28"
+			tasks: [{
+				id: "5B238E1585201407"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["20CFD372327AAA73"]
+			id: "42EBB99F697F4762"
+			tasks: [{
+				id: "653098F3857B9264"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["56AE18D7E9354A03"]
+			id: "66BCC399141D25BD"
+			tasks: [{
+				id: "69E1679F8B7ADF94"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["42EBB99F697F4762"]
+			id: "56AE18D7E9354A03"
+			tasks: [{
+				id: "14BDDE8F4787AD8B"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["66BCC399141D25BD"]
+			id: "02B0EC57E46D5DF7"
+			tasks: [{
+				id: "4DDD219CDC84A7E6"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["20CFD372327AAA73"]
+			id: "2DDD8131AB7F95C9"
+			tasks: [{
+				id: "25BB005A5B46B243"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["2DDD8131AB7F95C9"]
+			id: "3D60110945B15BFE"
+			tasks: [{
+				id: "650B74F7D8C31355"
+				type: "item"
+				item: "mekanism:advanced_infusing_factory"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["3D60110945B15BFE"]
+			id: "6A52C8E599F4845B"
+			tasks: [{
+				id: "3D1AB36A3987E239"
+				type: "item"
+				item: "mekanism:elite_infusing_factory"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["6A52C8E599F4845B"]
+			id: "127F2D81638C109A"
+			tasks: [{
+				id: "607E068A5519A689"
+				type: "item"
+				item: "mekanism:ultimate_infusing_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "7BF18708BE1C9C9C"
+			tasks: [{
+				id: "49ED7A144321B207"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["7BF18708BE1C9C9C"]
+			id: "67A2776D8896761B"
+			tasks: [{
+				id: "3A791CFECB124859"
+				type: "item"
+				item: "mekanism:basic_injecting_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["67A2776D8896761B"]
+			id: "2865E6D592BA19FB"
+			tasks: [{
+				id: "35424CCCC9C22AF3"
+				type: "item"
+				item: "mekanism:advanced_injecting_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["2865E6D592BA19FB"]
+			id: "3119200709216442"
+			tasks: [{
+				id: "4F2E288CEF25D1F9"
+				type: "item"
+				item: "mekanism:elite_injecting_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["3119200709216442"]
+			id: "4504C647393924B7"
+			tasks: [{
+				id: "4F7C84362EDF2E59"
+				type: "item"
+				item: "mekanism:ultimate_injecting_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "66D853475C867800"
+			tasks: [{
+				id: "43822D19ECA522A3"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["66D853475C867800"]
+			id: "30332066B261D559"
+			tasks: [{
+				id: "35FE6DC9DE8607BA"
+				type: "item"
+				item: "mekanism:basic_sawing_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["30332066B261D559"]
+			id: "571A84B691FD56FC"
+			tasks: [{
+				id: "7040D5E40A0EF55D"
+				type: "item"
+				item: "mekanism:advanced_sawing_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["571A84B691FD56FC"]
+			id: "4F76747A6B629085"
+			tasks: [{
+				id: "64B4923DAF7AB7E1"
+				type: "item"
+				item: "mekanism:elite_sawing_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["4F76747A6B629085"]
+			id: "74846F9DC43BB220"
+			tasks: [{
+				id: "4D8A35FC4F1D0B07"
+				type: "item"
+				item: "mekanism:ultimate_sawing_factory"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "1B3A9F100E8FF42E"
+			tasks: [{
+				id: "779D89643D6F9FC6"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["1B3A9F100E8FF42E"]
+			id: "62152DBEE7170AD5"
+			tasks: [{
+				id: "46B86051D4D5E513"
+				type: "item"
+				item: "mekanism:basic_purifying_factory"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["62152DBEE7170AD5"]
+			id: "3572CBD80A77C72C"
+			tasks: [{
+				id: "12EE7F42BF55A9ED"
+				type: "item"
+				item: "mekanism:advanced_purifying_factory"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["3572CBD80A77C72C"]
+			id: "4AA9BA8420871842"
+			tasks: [{
+				id: "21E03C5795A01340"
+				type: "item"
+				item: "mekanism:elite_purifying_factory"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["4AA9BA8420871842"]
+			id: "66C89D1AC87A0668"
+			tasks: [{
+				id: "649CB7513AE2A187"
+				type: "item"
+				item: "mekanism:ultimate_purifying_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "3F0DACE7FC03A5EB"
+			tasks: [{
+				id: "768758E5A65781DE"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["3F0DACE7FC03A5EB"]
+			id: "036236845CA8C96C"
+			tasks: [{
+				id: "765C5EE32710BB2B"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["036236845CA8C96C"]
+			id: "57146D303E84FE4D"
+			tasks: [{
+				id: "678BC12E8898D765"
+				type: "item"
+				item: "mekanism:advanced_combining_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["57146D303E84FE4D"]
+			id: "6E06AEF47402FB02"
+			tasks: [{
+				id: "77BD72B0C0A96035"
+				type: "item"
+				item: "mekanism:elite_combining_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["6E06AEF47402FB02"]
+			id: "32207CA20249F2A6"
+			tasks: [{
+				id: "704FB9D96B0C1618"
+				type: "item"
+				item: "mekanism:ultimate_combining_factory"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "7B31B11E144EB0A8"
+			tasks: [{
+				id: "13056E03E0BA38DC"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["7B31B11E144EB0A8"]
+			id: "30ACAACADD1E396C"
+			tasks: [{
+				id: "7BDEA8C9FEDDB3ED"
+				type: "item"
+				item: "mekanism:basic_compressing_factory"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["30ACAACADD1E396C"]
+			id: "42E2F9A9947162E5"
+			tasks: [{
+				id: "5654F9CE5EA199F9"
+				type: "item"
+				item: "mekanism:advanced_compressing_factory"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["42E2F9A9947162E5"]
+			id: "6A1EDA1679195596"
+			tasks: [{
+				id: "2B8657C94412979E"
+				type: "item"
+				item: "mekanism:elite_compressing_factory"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["6A1EDA1679195596"]
+			id: "48B4B36891055226"
+			tasks: [{
+				id: "62ECCF82B57F819F"
+				type: "item"
+				item: "mekanism:ultimate_compressing_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "4DC8DF5E9BEDC02E"
+			tasks: [{
+				id: "0161DC3EC8F0B55D"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["4DC8DF5E9BEDC02E"]
+			id: "2A2E24961931E8F5"
+			tasks: [{
+				id: "64FCCB79408C007C"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["2A2E24961931E8F5"]
+			id: "3061078CCFC45ABB"
+			tasks: [{
+				id: "2392D8722CC82FE7"
+				type: "item"
+				item: "mekanism:advanced_crushing_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["58785CDF2044F2B5"]
+			id: "26A90C7C2134ED71"
+			tasks: [{
+				id: "7A8AA8DB589F3CD2"
+				type: "item"
+				item: "mekanism:ultimate_crushing_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["3061078CCFC45ABB"]
+			id: "58785CDF2044F2B5"
+			tasks: [{
+				id: "45E3A131C6EF855D"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "479A761837AC1FFF"
+			tasks: [{
+				id: "2EC057E41CBB1AD1"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["479A761837AC1FFF"]
+			id: "178CFF11C9BDA17A"
+			tasks: [{
+				id: "37E47C67909163DD"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["178CFF11C9BDA17A"]
+			id: "6046CD6CCED33B29"
+			tasks: [{
+				id: "49A241F3F263AA59"
+				type: "item"
+				item: "mekanism:advanced_enriching_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["6046CD6CCED33B29"]
+			id: "24FE9DFC85C375DD"
+			tasks: [{
+				id: "0956497E35C5BC5C"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["24FE9DFC85C375DD"]
+			id: "0A7BDE5DD248682F"
+			tasks: [{
+				id: "4577419195613984"
+				type: "item"
+				item: "mekanism:ultimate_enriching_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			shape: "octagon"
+			hide_dependency_lines: true
+			dependencies: ["4F95315F22D0AA04"]
+			id: "38125BCDD523860E"
+			tasks: [{
+				id: "0BA33FDA1C1DDEF6"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "diamond"
+			hide_dependency_lines: false
+			dependencies: ["38125BCDD523860E"]
+			id: "3D13D9A7A28836B1"
+			tasks: [{
+				id: "06BB9DFDA2DD5822"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["3D13D9A7A28836B1"]
+			id: "28EF9A345E3210F0"
+			tasks: [{
+				id: "66E06582533FA4A1"
+				type: "item"
+				item: "mekanism:advanced_smelting_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["28EF9A345E3210F0"]
+			id: "18557B61786E05F4"
+			tasks: [{
+				id: "4D996E90049F0959"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["18557B61786E05F4"]
+			id: "5A64312C8EBEAD6D"
+			tasks: [{
+				id: "695A6037E9F176A6"
+				type: "item"
+				item: "mekanism:ultimate_smelting_factory"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7DE31A2B6A4B97B2"
+				"42EBB99F697F4762"
+			]
+			id: "19310C06FE09BE20"
+			tasks: [{
+				id: "7DA7B8CCB3CA820E"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -8.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"26189A702C7C9444"
+				"7DE31A2B6A4B97B2"
+				"42EBB99F697F4762"
+			]
+			id: "5AD93D86CFBD92E1"
+			tasks: [{
+				id: "6149225CCAB2F3F6"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7DE31A2B6A4B97B2"
+				"42EBB99F697F4762"
+			]
+			id: "4BB7E394A1817A49"
+			tasks: [{
+				id: "692D0490E4763B58"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7DE31A2B6A4B97B2"
+				"42EBB99F697F4762"
+			]
+			id: "48A704C42D0B55B5"
+			tasks: [{
+				id: "492A7864AD84BD76"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.5d
+			dependencies: ["6778EF1317E25E9F"]
+			id: "24B2192C4EE986F6"
+			tasks: [{
+				id: "50C63288C78A4AFE"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.5d
+			shape: "pentagon"
+			dependencies: ["5AD93D86CFBD92E1"]
+			id: "39AE37BF83BAC2FC"
+			tasks: [{
+				id: "62444550B2FEBDAA"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			dependencies: ["7DE31A2B6A4B97B2"]
+			id: "26189A702C7C9444"
+			tasks: [{
+				id: "51E627B0CCD886BA"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["7DE31A2B6A4B97B2"]
+			id: "6778EF1317E25E9F"
+			tasks: [{
+				id: "638CD1610A4EDD2D"
+				type: "item"
+				item: "mekanism:electrolytic_core"
+				count: 2L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.5d
+			dependencies: ["6778EF1317E25E9F"]
+			id: "4AC0D87CF06C8BFF"
+			tasks: [{
+				id: "040E5712102C7F4C"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["7DE31A2B6A4B97B2"]
+			id: "54B0E82A0071A080"
+			tasks: [{
+				id: "74595E9D0548D1E0"
+				type: "item"
+				item: "mekanism:electric_pump"
+			}]
+		}
+		{
+			title: "{chapters.mekanism.quests62.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mekanism:textures/block/thermal_evaporation_controller.png"
+				}
+			}
+			x: -9.5d
+			y: -2.0d
+			description: ["{chapters.mekanism.quests62.description}"]
+			dependencies: [
+				"54B0E82A0071A080"
+				"62444550B2FEBDAA"
+			]
+			id: "48196AA2FB5D7619"
+			tasks: [
+				{
+					id: "42308B0134050F9D"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 90L
+				}
+				{
+					id: "39F3119E10BBB77D"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 4L
+				}
+				{
+					id: "385AD0A688959BD9"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+					count: 2L
+				}
+				{
+					id: "00A9F3B9FA830309"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			dependencies: ["54B0E82A0071A080"]
+			id: "5C66437ED3ACC132"
+			tasks: [{
+				id: "3E30DD6C4E4C14F1"
+				type: "item"
+				item: "mekanism:upgrade_filter"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			dependencies: [
+				"1AB38893452BD032"
+				"48196AA2FB5D7619"
+			]
+			id: "46732BD00B318928"
+			tasks: [{
+				id: "7D737FAE5177FA26"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			dependencies: [
+				"6D2036ABC40EB26B"
+				"2CB0C2E6E331A8A3"
+				"51E627B0CCD886BA"
+				"653098F3857B9264"
+			]
+			id: "1AB38893452BD032"
+			tasks: [{
+				id: "783AEAE9E4C43D08"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			title: "{chapters.mekanism.quests66.title}"
+			x: -10.19047619047619d
+			y: -4.952380952380956d
+			shape: "rsquare"
+			dependencies: [
+				"46732BD00B318928"
+				"30EADF13D31A9B79"
+			]
+			size: 1.5d
+			id: "7B56489361F1BBF8"
+			tasks: [
+				{
+					id: "4FB366C772C6906F"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 59L
+				}
+				{
+					id: "4DD428653054184A"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 5L
+				}
+				{
+					id: "6A5CF64E76652F39"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "2790536F580C3D02"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "3217BFD986DB3DEB"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "031D77783C1F6134"
+				type: "random"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["20CFD372327AAA73"]
+			id: "30EADF13D31A9B79"
+			tasks: [{
+				id: "7D2575B3E6AB10D1"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:hohlraum"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanismgenerators:fusion_fuel"
+									amount: 10L
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.190476190476204d
+			y: -1.8503401360544274d
+			shape: "diamond"
+			dependencies: [
+				"5F90C5B813144733"
+				"5B238E1585201407"
+				"54CF052969B4F14B"
+				"51E627B0CCD886BA"
+			]
+			id: "4653C8F2A4E59801"
+			tasks: [{
+				id: "3572BE68C498C7DB"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -4.619047619047635d
+			y: -1.4217687074829968d
+			shape: "diamond"
+			dependencies: [
+				"5F90C5B813144733"
+				"51E627B0CCD886BA"
+			]
+			id: "76DCD87F17B921A8"
+			tasks: [{
+				id: "3F26D41D68EACAA3"
+				type: "item"
+				item: "mekanism:electric_bow"
+			}]
+		}
+		{
+			x: -3.7210884353741633d
+			y: -1.4217687074829968d
+			shape: "diamond"
+			dependencies: ["14BDDE8F4787AD8B"]
+			id: "58B622010DD46455"
+			tasks: [{
+				id: "5F412D0D2A231BF2"
+				type: "item"
+				item: "mekanism:flamethrower"
+			}]
+		}
+		{
+			x: -4.1700680272109025d
+			y: -0.9931972789115662d
+			shape: "diamond"
+			dependencies: [
+				"4DDD219CDC84A7E6"
+				"1016B73B813CA92F"
+				"5FDBACD88BE7AEE1"
+				"6854BB794F21C26E"
+			]
+			id: "38454DD7CB22B27B"
+			tasks: [{
+				id: "5904BBED91043DB4"
+				type: "item"
+				item: {
+					id: "mekanism:meka_tool"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -0.5d
+			dependencies: [
+				"479A761837AC1FFF"
+				"6D2036ABC40EB26B"
+				"653098F3857B9264"
+			]
+			id: "327DD4388CB37194"
+			tasks: [{
+				id: "60D4659BA258A791"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			dependencies: ["327DD4388CB37194"]
+			id: "20F8A037602BCC33"
+			tasks: [{
+				id: "1016B73B813CA92F"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["20F8A037602BCC33"]
+			id: "0B94C87478482201"
+			tasks: [{
+				id: "6054B2496FFA77E4"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			dependencies: ["20F8A037602BCC33"]
+			id: "6936CD8C296498E0"
+			tasks: [{
+				id: "69F3D0EDEB33BD3B"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			dependencies: ["20F8A037602BCC33"]
+			id: "3CDB932074E539E5"
+			tasks: [{
+				id: "7C42E678A5641DD1"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			dependencies: ["20F8A037602BCC33"]
+			id: "5FF853D8DD8C6F69"
+			tasks: [{
+				id: "28542C9B4EEF8EF5"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["326F52790B22EC28"]
+			id: "72FF239EFC0AF271"
+			tasks: [{
+				id: "69CCDE66455E8342"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			shape: "hexagon"
+			hide_dependency_lines: false
+			dependencies: ["72FF239EFC0AF271"]
+			id: "2C24FC5FEE54637B"
+			tasks: [
+				{
+					id: "51ACE0B9A23D1F1C"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+				{
+					id: "1725FE9E60108651"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+					count: 9L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["2C24FC5FEE54637B"]
+			id: "0C50AED0D730DE3E"
+			tasks: [{
+				id: "027DEF6AD3E84799"
+				type: "item"
+				item: "mekanism:portable_teleporter"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.0d
+			shape: "pentagon"
+			dependencies: [
+				"7DE31A2B6A4B97B2"
+				"26189A702C7C9444"
+			]
+			id: "0CBAF53E48657E2D"
+			tasks: [{
+				id: "5FDBACD88BE7AEE1"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			dependencies: [
+				"5B238E1585201407"
+				"54CF052969B4F14B"
+			]
+			id: "1247B733E99E7A8E"
+			tasks: [{
+				id: "193B6AECE265B37D"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["20CFD372327AAA73"]
+			id: "5F5CB0C31AA29E55"
+			tasks: [{
+				id: "7E41773C5F93A7B3"
+				type: "item"
+				item: "mekanism:dust_refined_obsidian"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			dependencies: [
+				"5F5CB0C31AA29E55"
+				"13056E03E0BA38DC"
+			]
+			id: "6E961E0B1F179A3E"
+			tasks: [{
+				id: "54CF052969B4F14B"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["7B31B11E144EB0A8"]
+			id: "249EA29DAA6859EA"
+			tasks: [{
+				id: "557695A0D76824FA"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			shape: "rsquare"
+			id: "5C171D8A6A41E806"
+			tasks: [{
+				id: "2CB0C2E6E331A8A3"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			shape: "rsquare"
+			dependencies: [
+				"5C171D8A6A41E806"
+				"5F90C5B813144733"
+			]
+			id: "5C93D996AE898DC2"
+			tasks: [{
+				id: "19369577D3EC7978"
+				type: "item"
+				item: "mekanism:advanced_fluid_tank"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			shape: "rsquare"
+			dependencies: [
+				"5C93D996AE898DC2"
+				"6A2F8E1DF41F4575"
+			]
+			id: "6FB7E897393FDF85"
+			tasks: [{
+				id: "7AAF01D042128240"
+				type: "item"
+				item: "mekanism:elite_fluid_tank"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			shape: "rsquare"
+			dependencies: [
+				"6FB7E897393FDF85"
+				"5B238E1585201407"
+			]
+			id: "61D9A55F807D97E3"
+			tasks: [{
+				id: "112FD987CD019CAE"
+				type: "item"
+				item: "mekanism:ultimate_fluid_tank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			shape: "rsquare"
+			id: "724D8BCA8A669972"
+			tasks: [{
+				id: "6D2036ABC40EB26B"
+				type: "item"
+				item: "mekanism:basic_chemical_tank"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			shape: "rsquare"
+			dependencies: [
+				"724D8BCA8A669972"
+				"5F90C5B813144733"
+			]
+			id: "5CFB2CF242179644"
+			tasks: [{
+				id: "4607EB3D211CE3C2"
+				type: "item"
+				item: "mekanism:advanced_chemical_tank"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			shape: "rsquare"
+			dependencies: [
+				"5CFB2CF242179644"
+				"6A2F8E1DF41F4575"
+			]
+			id: "44E550977B0A6DF9"
+			tasks: [{
+				id: "4E209DB95E513059"
+				type: "item"
+				item: "mekanism:elite_chemical_tank"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			shape: "rsquare"
+			dependencies: [
+				"44E550977B0A6DF9"
+				"5B238E1585201407"
+			]
+			id: "13B393062F7AF152"
+			tasks: [{
+				id: "20A671C8341E0D96"
+				type: "item"
+				item: "mekanism:ultimate_chemical_tank"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			dependencies: ["327DD4388CB37194"]
+			id: "1C634403DF9FDC51"
+			tasks: [{
+				id: "21FB69629D06787D"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			dependencies: ["1C634403DF9FDC51"]
+			id: "1CABC7EEB0601511"
+			tasks: [{
+				id: "6854BB794F21C26E"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["0AA9FFA8B43E61E9"]
+			id: "380158227E900783"
+			tasks: [{
+				id: "7DCD7D8D43B9341F"
+				type: "item"
+				item: "mekanism:basic_induction_cell"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: [
+				"380158227E900783"
+				"4C1A052AE7046A6B"
+			]
+			id: "6DE36A0D74A4F222"
+			tasks: [{
+				id: "06FC295F6E6E43E7"
+				type: "item"
+				item: "mekanism:advanced_induction_cell"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: [
+				"6DE36A0D74A4F222"
+				"71D4A36B51926F26"
+			]
+			id: "48680966015EF79C"
+			tasks: [{
+				id: "1096CE9389B9B537"
+				type: "item"
+				item: "mekanism:elite_induction_cell"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: [
+				"48680966015EF79C"
+				"7B40F6AA1F41B87C"
+			]
+			id: "36F99C99D1D3D92E"
+			tasks: [{
+				id: "01D2C51F6DB92155"
+				type: "item"
+				item: "mekanism:ultimate_induction_cell"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: ["51E627B0CCD886BA"]
+			id: "0AA9FFA8B43E61E9"
+			tasks: [{
+				id: "5BC525DBF605DD18"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			dependencies: ["0AA9FFA8B43E61E9"]
+			id: "4C1A052AE7046A6B"
+			tasks: [{
+				id: "6C044946AC069457"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["4C1A052AE7046A6B"]
+			id: "71D4A36B51926F26"
+			tasks: [{
+				id: "63F9CBFBBEB85273"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["71D4A36B51926F26"]
+			id: "7B40F6AA1F41B87C"
+			tasks: [{
+				id: "128089A7BB9EE0BF"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			dependencies: ["0AA9FFA8B43E61E9"]
+			id: "1764E778CDB1578E"
+			tasks: [{
+				id: "7EF9BA1853562A75"
+				type: "item"
+				item: "mekanism:basic_induction_provider"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: [
+				"1764E778CDB1578E"
+				"4C1A052AE7046A6B"
+			]
+			id: "66A560AC4FEB0008"
+			tasks: [{
+				id: "404A3F18F20C9B7D"
+				type: "item"
+				item: "mekanism:advanced_induction_provider"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			dependencies: [
+				"66A560AC4FEB0008"
+				"71D4A36B51926F26"
+			]
+			id: "26D5383CE1FABB2A"
+			tasks: [{
+				id: "60FF0A34CA72F1DE"
+				type: "item"
+				item: "mekanism:elite_induction_provider"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: [
+				"26D5383CE1FABB2A"
+				"7B40F6AA1F41B87C"
+			]
+			id: "372DC17C6F7F8864"
+			tasks: [{
+				id: "560AF38A61C18563"
+				type: "item"
+				item: "mekanism:ultimate_induction_provider"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "63AB92A9C000B49E"
+			tasks: [{
+				id: "5BF328A945E1B1C8"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["63AB92A9C000B49E"]
+			id: "0EAF45199EAB957E"
+			tasks: [{
+				id: "5DA3C4B53D4CC4B4"
+				type: "item"
+				item: "mekanism:advanced_mechanical_pipe"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0EAF45199EAB957E"]
+			id: "0B6335D87FE19830"
+			tasks: [{
+				id: "49E37BD8B44232ED"
+				type: "item"
+				item: "mekanism:elite_mechanical_pipe"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["0B6335D87FE19830"]
+			id: "6D004A976127FD2B"
+			tasks: [{
+				id: "65E9E1182A70B226"
+				type: "item"
+				item: "mekanism:ultimate_mechanical_pipe"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			shape: "diamond"
+			id: "4B5110ED26A11223"
+			tasks: [{
+				id: "4C2889682156B0A6"
+				type: "item"
+				item: "mekanism:basic_pressurized_tube"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["4B5110ED26A11223"]
+			id: "0A0D0CE83EE173AB"
+			tasks: [{
+				id: "3189E2F3C2B491AF"
+				type: "item"
+				item: "mekanism:advanced_pressurized_tube"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0A0D0CE83EE173AB"]
+			id: "075216409F256872"
+			tasks: [{
+				id: "32DCEBA3E66711D3"
+				type: "item"
+				item: "mekanism:elite_pressurized_tube"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["075216409F256872"]
+			id: "1133CE0B8A2CBE1E"
+			tasks: [{
+				id: "66E32F307D8F2CD2"
+				type: "item"
+				item: "mekanism:ultimate_pressurized_tube"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			shape: "diamond"
+			id: "36C0768762623C82"
+			tasks: [{
+				id: "5AA9B6936800BAB8"
+				type: "item"
+				item: "mekanism:basic_logistical_transporter"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["36C0768762623C82"]
+			id: "22BFC6F8C5485C04"
+			tasks: [{
+				id: "60893BC9A817C03E"
+				type: "item"
+				item: "mekanism:advanced_logistical_transporter"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["22BFC6F8C5485C04"]
+			id: "707E3D3FEC815179"
+			tasks: [{
+				id: "602A9E17692A2843"
+				type: "item"
+				item: "mekanism:elite_logistical_transporter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["707E3D3FEC815179"]
+			id: "1C404927409392E9"
+			tasks: [{
+				id: "249FE9276B0E49CB"
+				type: "item"
+				item: "mekanism:ultimate_logistical_transporter"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			shape: "diamond"
+			id: "05A807F80792F161"
+			tasks: [{
+				id: "6E382B2CFEB18AE7"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["265F98E9F8CF91AD"]
+			id: "55EDA566306BA288"
+			tasks: [{
+				id: "1246FF9B5E5A2CE0"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["05A807F80792F161"]
+			id: "265F98E9F8CF91AD"
+			tasks: [{
+				id: "439DA684733FD3B4"
+				type: "item"
+				item: "mekanism:advanced_universal_cable"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["55EDA566306BA288"]
+			id: "53D699E605A12956"
+			tasks: [{
+				id: "37384C07A8D3D878"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			shape: "diamond"
+			id: "50C7F441A74D1DE5"
+			tasks: [{
+				id: "6E12808D7DDE01A4"
+				type: "item"
+				item: "mekanism:basic_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["50C7F441A74D1DE5"]
+			id: "259E6473CE88F8CA"
+			tasks: [{
+				id: "36F7045647C738C0"
+				type: "item"
+				item: "mekanism:advanced_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["259E6473CE88F8CA"]
+			id: "76C35470009272D9"
+			tasks: [{
+				id: "5D0DF4A68D3671BA"
+				type: "item"
+				item: "mekanism:elite_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			shape: "diamond"
+			dependencies: ["76C35470009272D9"]
+			id: "198DFA02813D2193"
+			tasks: [{
+				id: "407B918ACD1C0178"
+				type: "item"
+				item: "mekanism:ultimate_thermodynamic_conductor"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["4F95315F22D0AA04"]
+			id: "7002B57930232C8F"
+			tasks: [{
+				id: "2B9453C22A1A135B"
+				type: "item"
+				item: "mekanism:pigment_extractor"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["4F95315F22D0AA04"]
+			id: "25F7FE8F133A9751"
+			tasks: [{
+				id: "2823A4C594C0E7BD"
+				type: "item"
+				item: "mekanism:pigment_mixer"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["4F95315F22D0AA04"]
+			id: "06CE80D8D74617D1"
+			tasks: [{
+				id: "66F9C1631228DC3D"
+				type: "item"
+				item: "mekanism:painting_machine"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: [
+				"54CF052969B4F14B"
+				"4DDD219CDC84A7E6"
+			]
+			id: "421AC72CEF5692D3"
+			tasks: [{
+				id: "79106BEE1F603834"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.25d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"6284D5190D95CDC1"
+				"3951729CFE112EC0"
+				"3178CACCE1AEACBB"
+			]
+			size: 1.5d
+			id: "20CFD372327AAA73"
+			tasks: [{
+				id: "46E80D30EBDFFEA6"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.375d
+			hide_dependency_lines: true
+			dependencies: [
+				"6E961E0B1F179A3E"
+				"7DE31A2B6A4B97B2"
+				"6284D5190D95CDC1"
+			]
+			size: 1.5d
+			id: "4F95315F22D0AA04"
+			tasks: [{
+				id: "17A46CB284427BDD"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			size: 1.4d
+			id: "6284D5190D95CDC1"
+			tasks: [{
+				id: "56CA1C11D77E6D15"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+		}
+	]
+}

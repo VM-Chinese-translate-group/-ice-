@@ -1,0 +1,360 @@
+{
+	id: "79AC79A7A5C1B669"
+	group: "230B72CC6A99B5CF"
+	order_index: 2
+	filename: "creative_items"
+	title: "{chapters.creative_items.title}"
+	icon: "powah:energy_cell_creative"
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: [
+				"71E66059645275FD"
+				"3EDB136EF43CEFBE"
+				"27F9AD3E4209AD4C"
+				"294DABE14A51806A"
+				"3B69E4B37964DCCC"
+				"568A208468523C58"
+				"3652893D9EB299A9"
+				"229843B7CA876584"
+				"389CC5A175D63A94"
+				"4191EAEDD9CDC308"
+				"639F12E290401501"
+				"5926DB8DC8F1554F"
+				"387B14307CDCEBAA"
+				"41C00F3BA8901446"
+			]
+			id: "00F51892C4E537AE"
+			tasks: [{
+				id: "01EE645DA28EA937"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_creative"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1542388038
+							1646021582
+							-1611674854
+							-964178315
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["71E66059645275FD"]
+			id: "6D4A43854F2F9D9B"
+			tasks: [{
+				id: "451ADBE511A51287"
+				type: "item"
+				item: "appliedenergistics2:creative_energy_cell"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: [
+				"71E66059645275FD"
+				"4B097318B9CA4ECA"
+			]
+			id: "105F4CB6A47E939C"
+			tasks: [{
+				id: "1870B4464D8A00D2"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+						creative: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: [
+				"71E66059645275FD"
+				"17DFCFEFD4581A23"
+			]
+			id: "29CA403D4B73ADB8"
+			tasks: [{
+				id: "531A87374E1CE257"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: [
+				"71E66059645275FD"
+				"17DFCFEFD4581A23"
+			]
+			id: "13D1F1AB931C51D9"
+			tasks: [{
+				id: "5C4EB8486EB81613"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: [
+				"71E66059645275FD"
+				"451ADBE511A51287"
+			]
+			id: "1BA30E9272B62D16"
+			tasks: [{
+				id: "7357C8D03007F8AA"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									858096400
+									-1723773496
+									-1257756558
+									1874724906
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: [
+				"71E66059645275FD"
+				"7357C8D03007F8AA"
+			]
+			id: "58879216F049B081"
+			tasks: [{
+				id: "46DA8A9C81166714"
+				type: "item"
+				item: "draconicevolution:creative_op_capacitor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: [
+				"71E66059645275FD"
+				"54E3D3840E182FE9"
+				"4B097318B9CA4ECA"
+				"54BD69C452390C1D"
+				"62BE0EFA5D6BDA3F"
+				"18FFB1EC46A725E8"
+				"25D420AF2146597A"
+			]
+			id: "20954281AC8E0944"
+			tasks: [{
+				id: "38312E403D746479"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["71E66059645275FD"]
+			id: "1FF0D902A3C5277B"
+			tasks: [{
+				id: "5767E371A84BDBC5"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["71E66059645275FD"]
+			id: "00B97831D2548D03"
+			tasks: [{
+				id: "553C150BD5EDC02B"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["71E66059645275FD"]
+			id: "655391B20CD6B480"
+			tasks: [{
+				id: "2437FB7E138EE3AE"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: [
+				"71E66059645275FD"
+				"54E3D3840E182FE9"
+				"17DFCFEFD4581A23"
+			]
+			id: "5953D073F539F0ED"
+			tasks: [{
+				id: "1596BC106070C605"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.25d
+			dependencies: [
+				"4F8C482468B474BC"
+				"4EAA727934D2C4A8"
+			]
+			id: "71E66059645275FD"
+			tasks: [{
+				id: "5636449FF1A56E45"
+				type: "item"
+				item: "kubejs:nitrozed_ingot"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -1.25d
+			dependencies: [
+				"57EA30A6970FC016"
+				"7CA89476AB19A637"
+				"174C902C85BFF372"
+				"1A20DFBD1AB21433"
+			]
+			id: "4EAA727934D2C4A8"
+			tasks: [{
+				id: "3C8A520EF7D1E5BE"
+				type: "item"
+				item: "kubejs:void_metal"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -1.25d
+			dependencies: [
+				"0D62E796661FF4A6"
+				"1CE562092A86069E"
+				"6E961E0B1F179A3E"
+				"43103F961F7448FE"
+				"4D5120E426A2106C"
+				"60DBC76B671BDDD6"
+				"653F6152BC120340"
+			]
+			id: "4F8C482468B474BC"
+			tasks: [{
+				id: "7CE465AC57DDDB72"
+				type: "item"
+				item: "kubejs:ce"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: [
+				"71E66059645275FD"
+				"17DFCFEFD4581A23"
+			]
+			id: "1B09F18F248BBE65"
+			tasks: [{
+				id: "3AF2555564265F40"
+				type: "item"
+				item: "bloodmagic:activationcrystalcreative"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: [
+				"71E66059645275FD"
+				"46DA8A9C81166714"
+			]
+			id: "5E8121456BF4DABE"
+			tasks: [{
+				id: "0FC6FFC032799937"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"71E66059645275FD"
+				"0137FA8D1AE83D6F"
+				"49570B512A3DECB6"
+			]
+			id: "0A61A7F9C12870A3"
+			tasks: [{
+				id: "63E8C3AB195D7DDC"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"5953D073F539F0ED"
+				"655391B20CD6B480"
+				"00B97831D2548D03"
+				"1FF0D902A3C5277B"
+				"13D1F1AB931C51D9"
+				"29CA403D4B73ADB8"
+				"1B09F18F248BBE65"
+				"0A61A7F9C12870A3"
+				"00F51892C4E537AE"
+				"20954281AC8E0944"
+				"105F4CB6A47E939C"
+			]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "35775AB26A9C72F4"
+			tasks: [{
+				id: "245397FC63EDAF7C"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+	]
+}

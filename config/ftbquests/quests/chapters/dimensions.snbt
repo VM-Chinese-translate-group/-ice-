@@ -1,0 +1,126 @@
+{
+	id: "4E26E95AEC089AD0"
+	group: "7D5BC8F7E9F44586"
+	order_index: 3
+	filename: "dimensions"
+	title: "{chapters.dimensions.title}"
+	icon: "dimpaintings:end_painting"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["{chapters.dimensions.quests1.description}"]
+			id: "2CDCF179B9824831"
+			tasks: [{
+				id: "7052C08BE0B3501B"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["2CDCF179B9824831"]
+			id: "37936D0D96AA3384"
+			tasks: [{
+				id: "6E166BDEB5F1197A"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["37936D0D96AA3384"]
+			id: "0D7B6145346532DE"
+			tasks: [{
+				id: "42D99732283368C2"
+				type: "dimension"
+				title: "{chapters.dimensions.quests3.tasks.title}"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["6BC937BAE043AB85"]
+			id: "619C556FB94BB940"
+			tasks: [{
+				id: "70D2164EE73DE991"
+				type: "item"
+				item: "dimpaintings:end_painting"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["619C556FB94BB940"]
+			id: "5303A319A4DC5FBA"
+			tasks: [{
+				id: "48281A164DE20B97"
+				type: "dimension"
+				title: "{chapters.dimensions.quests5.tasks.title}"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["{chapters.dimensions.quests6.description}"]
+			dependencies: ["0D7B6145346532DE"]
+			id: "6BC937BAE043AB85"
+			tasks: [{
+				id: "225B7091874F354D"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["39CC30F814D0A6EE"]
+			id: "5DDAB62612F7CAAF"
+			tasks: [{
+				id: "7C8C04D5D1D321FF"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["0D7B6145346532DE"]
+			id: "39CC30F814D0A6EE"
+			tasks: [{
+				id: "7491C389D84D468A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["5303A319A4DC5FBA"]
+			id: "03239DD6AA39B13E"
+			tasks: [{
+				id: "6D6BAD37F6EA1E7E"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -0.25d
+			dependencies: ["0D7B6145346532DE"]
+			id: "199F76DE85B5DB85"
+			tasks: [{
+				id: "22E006A95E7FB98F"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+	]
+}

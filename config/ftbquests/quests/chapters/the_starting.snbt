@@ -1,0 +1,354 @@
+{
+	id: "27952AC931BAEEC5"
+	group: "7D5BC8F7E9F44586"
+	order_index: 1
+	filename: "the_starting"
+	title: "{chapters.the_starting.title}"
+	icon: "minecraft:packed_ice"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["{chapters.the_starting.quests1.description}"]
+			id: "4A0E3343F5B069EE"
+			tasks: [{
+				id: "1BB3A5C4904C8A96"
+				type: "item"
+				item: "kubejs:frozen_oak"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["{chapters.the_starting.quests2.description}"]
+			dependencies: ["4A0E3343F5B069EE"]
+			id: "3DD7EEC492812249"
+			tasks: [{
+				id: "72156E6403C87ADE"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 4L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["3DD7EEC492812249"]
+			id: "562DEFDD75495A6D"
+			tasks: [{
+				id: "4A8065913143FD35"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["{chapters.the_starting.quests4.description}"]
+			dependencies: ["562DEFDD75495A6D"]
+			id: "60B50ED1C2721706"
+			tasks: [{
+				id: "4D41C34E166E495A"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["60B50ED1C2721706"]
+			id: "5F6E8596C8C4F88A"
+			tasks: [{
+				id: "50920E2C8D01763B"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 2L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "45472A0F4B8D67A8"
+			tasks: [{
+				id: "3C046C553C930B8D"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["{chapters.the_starting.quests7.description}"]
+			dependencies: [
+				"45472A0F4B8D67A8"
+				"5F6E8596C8C4F88A"
+			]
+			id: "744E64BE09D36E34"
+			tasks: [{
+				id: "0B49F3A01903C071"
+				type: "item"
+				item: "quark:blue_blossom_sapling"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "086475AD48D7906A"
+			tasks: [{
+				id: "4A38B6D0465A31E9"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["{chapters.the_starting.quests9.description}"]
+			id: "1B377B7C997FD658"
+			tasks: [{
+				id: "1623F8B7AA7992DB"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["1B377B7C997FD658"]
+			id: "2A641F6D3B60F422"
+			tasks: [{
+				id: "3F09DE234FAB3699"
+				type: "item"
+				item: "ftbsluice:clay_bucket"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["2A641F6D3B60F422"]
+			id: "29D2743BBE655322"
+			tasks: [{
+				id: "18FD709E4EBABB1F"
+				type: "item"
+				item: "ftbsluice:clay_water_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["3DD7EEC492812249"]
+			id: "267A2CA8A9261A09"
+			tasks: [{
+				id: "641FB55F67233E56"
+				type: "item"
+				item: "appliedenergistics2:wooden_gear"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			description: ["{chapters.the_starting.quests13.description}"]
+			dependencies: ["267A2CA8A9261A09"]
+			id: "6816A7EB05A4E74C"
+			tasks: [{
+				id: "1EB243492179BB34"
+				type: "item"
+				item: "ftbsluice:oak_sluice"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["{chapters.the_starting.quests14.description}"]
+			dependencies: ["3DD7EEC492812249"]
+			id: "7CDB1BA6E1035C5B"
+			tasks: [{
+				id: "3AD6B1203D30B4DE"
+				type: "item"
+				item: {
+					id: "ftbsluice:wooden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["{chapters.the_starting.quests15.description}"]
+			dependencies: ["7CDB1BA6E1035C5B"]
+			id: "5137C3BDFC956E1B"
+			tasks: [{
+				id: "5FC42D8F3437C85B"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			description: ["{chapters.the_starting.quests16.description}"]
+			dependencies: ["5137C3BDFC956E1B"]
+			id: "42A0CFF9B50A5649"
+			tasks: [{
+				id: "5F289B8F91A8AE8F"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: [
+				"42A0CFF9B50A5649"
+				"086475AD48D7906A"
+			]
+			id: "130D2DE9E91124E0"
+			tasks: [{
+				id: "13459A58BDCEA78E"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: ["130D2DE9E91124E0"]
+			id: "0A78832C4E841CC7"
+			tasks: [{
+				id: "2CF4D8ED96454DC6"
+				type: "item"
+				item: "ftbsluice:dust"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["15DA260FCEF45A41"]
+			id: "22A495283470369C"
+			tasks: [{
+				id: "5BD0B67D2AE32903"
+				type: "item"
+				item: "ftbsluice:cloth_mesh"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			dependencies: ["0A78832C4E841CC7"]
+			id: "2D2CFDD053728C2C"
+			tasks: [{
+				id: "6E43B10A27163DAD"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["2D2CFDD053728C2C"]
+			id: "72C853D52FB4AB62"
+			tasks: [{
+				id: "2AE074DC9346722E"
+				type: "item"
+				item: "immersiveengineering:hemp_fiber"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			dependencies: ["72C853D52FB4AB62"]
+			id: "15DA260FCEF45A41"
+			tasks: [{
+				id: "40C7FD1CEEA06537"
+				type: "item"
+				item: "minecraft:string"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["5137C3BDFC956E1B"]
+			id: "10DC9C2C6880EAE5"
+			tasks: [{
+				id: "3C00FFDDB592F9E0"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["10DC9C2C6880EAE5"]
+			id: "26B91E40CF5D451E"
+			tasks: [{
+				id: "2196DD8A48966F78"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			x: -0.49285714285715443d
+			y: -5.7892857142857395d
+			dependencies: ["26B91E40CF5D451E"]
+			id: "1576F7AB89C42565"
+			tasks: [{
+				id: "70F3DD20AA1D25BB"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.75d
+			description: ["{chapters.the_starting.quests26.description}"]
+			dependencies: [
+				"6816A7EB05A4E74C"
+				"22A495283470369C"
+				"29D2743BBE655322"
+			]
+			id: "2A5393D04C9E6911"
+			tasks: [{
+				id: "6350064E2AF3E04B"
+				type: "item"
+				item: "emendatusenigmatica:iron_chunk"
+			}]
+		}
+		{
+			x: 2.721428571428561d
+			y: -5.896428571428601d
+			description: ["{chapters.the_starting.quests27.description}"]
+			dependencies: ["2A5393D04C9E6911"]
+			id: "1D53ABB5176EE5B9"
+			tasks: [{
+				id: "5F2AB178CEB12BD0"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 1.685714285714269d
+			y: -5.2892857142857395d
+			dependencies: [
+				"1576F7AB89C42565"
+				"1D53ABB5176EE5B9"
+			]
+			id: "3202714834060ECF"
+			tasks: [{
+				id: "5E396E3766E6E95D"
+				type: "item"
+				item: "ftbjarmod:cast_iron_ingot"
+			}]
+		}
+	]
+}

@@ -1,0 +1,131 @@
+{
+	id: "431B9E07B34B4AFA"
+	group: "7D5BC8F7E9F44586"
+	order_index: 0
+	filename: "welcome"
+	title: "{chapters.welcome.title}"
+	icon: "mysticalagriculture:ice_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 9.5d
+		y: -0.5d
+		width: 17.4d
+		height: 24.0d
+		rotation: 0.0d
+		image: "kubejs:textures/quests/progress_line.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "minecraft:ice"
+			x: 0.0d
+			y: 0.0d
+			description: ["{chapters.welcome.quests1.description}"]
+			id: "0D3BA0102FE9950E"
+			tasks: [{
+				id: "7EA6789776F40C04"
+				type: "checkmark"
+				title: "{chapters.welcome.quests1.tasks.title}"
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"{chapters.welcome.quests2.description1}"
+				""
+				"{chapters.welcome.quests2.description2}"
+			]
+			dependencies: ["0D3BA0102FE9950E"]
+			id: "113C0FE48E1DD395"
+			tasks: [{
+				id: "50B462F50038178A"
+				type: "checkmark"
+				title: "{chapters.welcome.quests2.tasks.title}"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"{chapters.welcome.quests3.description1}"
+				""
+				"{chapters.welcome.quests3.description2}"
+			]
+			dependencies: ["0D3BA0102FE9950E"]
+			id: "4BC10450230F77F5"
+			tasks: [{
+				id: "57E80C04FAF55C10"
+				type: "checkmark"
+				title: "{chapters.welcome.quests3.tasks.title}"
+			}]
+		}
+		{
+			icon: "simplyjetpacks:jetpack_creative"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"{chapters.welcome.quests4.description1}"
+				"{chapters.welcome.quests4.description2}"
+				"{chapters.welcome.quests4.description3}"
+			]
+			dependencies: ["0D3BA0102FE9950E"]
+			id: "0B5AECA079EC815F"
+			tasks: [{
+				id: "4817ED07BDF398CE"
+				type: "checkmark"
+				title: "{chapters.creative_items.title}"
+			}]
+		}
+		{
+			icon: "minecraft:map"
+			x: 0.0d
+			y: -1.5d
+			description: ["{chapters.welcome.quests5.description}"]
+			dependencies: ["0D3BA0102FE9950E"]
+			id: "18E69FF0EE3730FC"
+			tasks: [{
+				id: "0AD505AB891832F1"
+				type: "checkmark"
+				title: "{chapters.welcome.quests5.tasks.title}"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbquests:textures/gui/info.png"
+				}
+			}
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"{chapters.welcome.quests6.description1}"
+				""
+				"{chapters.welcome.quests6.description2}"
+				""
+				"{chapters.welcome.quests6.description3}"
+				"{chapters.welcome.quests6.description4}"
+			]
+			id: "6039EB52D1387F25"
+			tasks: [{
+				id: "06E9C8DE8223A3F7"
+				type: "checkmark"
+				title: "{chapters.welcome.quests6.tasks.title}"
+			}]
+		}
+	]
+}

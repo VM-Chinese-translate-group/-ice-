@@ -1,0 +1,423 @@
+{
+	id: "3B57926AB06A69F4"
+	group: "7D5BC8F7E9F44586"
+	order_index: 2
+	filename: "resources"
+	title: "{chapters.resources.title}"
+	icon: "ftbsluice:iron_sluice"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "octagon"
+			description: [
+				"{chapters.resources.quests1.description1}"
+				""
+				"{chapters.resources.quests1.description2}"
+				"{chapters.resources.quests1.description3}"
+				""
+				""
+				"{chapters.resources.quests1.description4}"
+				"{chapters.resources.quests1.description5}"
+				""
+				"{chapters.resources.quests1.description6}"
+				"{chapters.resources.quests1.description7}"
+				""
+				"{chapters.resources.quests1.description8}"
+				"{chapters.resources.quests1.description9}"
+			]
+			dependencies: ["5E396E3766E6E95D"]
+			id: "576838D3638DA507"
+			tasks: [{
+				id: "5AD2AE8EE81354E4"
+				type: "item"
+				item: "ftbjarmod:tempered_jar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			shape: "octagon"
+			dependencies: ["576838D3638DA507"]
+			id: "1E1E04318666A498"
+			tasks: [{
+				id: "1A99B49D79700732"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			shape: "hexagon"
+			description: ["{chapters.resources.quests3.description}"]
+			dependencies: [
+				"6816A7EB05A4E74C"
+				"1D53ABB5176EE5B9"
+			]
+			id: "3142231B32ED64E6"
+			tasks: [{
+				id: "6EF430194EBCA8FA"
+				type: "item"
+				item: "ftbsluice:iron_sluice"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: ["{chapters.resources.quests4.description}"]
+			dependencies: ["3142231B32ED64E6"]
+			id: "0338034E86E55AB1"
+			tasks: [{
+				id: "2184015BDEA3734A"
+				type: "item"
+				item: "ftbsluice:diamond_sluice"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"{chapters.resources.quests4.description}"
+				"{chapters.resources.quests5.description2}"
+			]
+			dependencies: ["0338034E86E55AB1"]
+			id: "37DC25E043E1EBDD"
+			tasks: [{
+				id: "2DF7B8B5DEF07241"
+				type: "item"
+				item: "ftbsluice:netherite_sluice"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"{chapters.resources.quests4.description}"
+				"{chapters.resources.quests5.description2}"
+				"{chapters.resources.quests6.description3}"
+			]
+			dependencies: ["37DC25E043E1EBDD"]
+			id: "163BA3CE544D5F9D"
+			tasks: [{
+				id: "75CADD2470921F85"
+				type: "item"
+				item: "ftbsluice:empowered_sluice"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: [
+				"5BD0B67D2AE32903"
+				"1D53ABB5176EE5B9"
+			]
+			id: "7BEF37E4C7B7E8FC"
+			tasks: [{
+				id: "277FC6A3B4F5CB80"
+				type: "item"
+				item: "ftbsluice:iron_mesh"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: ["7BEF37E4C7B7E8FC"]
+			id: "440C873A1CDF59C0"
+			tasks: [{
+				id: "0862FB0C01950B7C"
+				type: "item"
+				item: "ftbsluice:gold_mesh"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: ["440C873A1CDF59C0"]
+			id: "571E2572241F0951"
+			tasks: [{
+				id: "3818D98037B98235"
+				type: "item"
+				item: "ftbsluice:diamond_mesh"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "pentagon"
+			dependencies: [
+				"571E2572241F0951"
+				"163BA3CE544D5F9D"
+				"68FD993EC596E9D9"
+			]
+			id: "6147F4E3E28836C7"
+			tasks: [{
+				id: "54086FA4186F2AC8"
+				type: "item"
+				item: "ftbsluice:blazing_mesh"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			shape: "octagon"
+			dependencies: ["576838D3638DA507"]
+			id: "56680F8766892C98"
+			tasks: [{
+				id: "1D5B995B2C204549"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			id: "5934A3BBE87BE789"
+			tasks: [{
+				id: "02216B7670864B98"
+				type: "item"
+				item: "ftbjarmod:jar"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			shape: "gear"
+			dependencies: ["3202714834060ECF"]
+			id: "46F4F95A1AB5D892"
+			tasks: [{
+				id: "3CE76685B566BEE8"
+				type: "item"
+				item: "ftbjarmod:auto_processing_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			shape: "hexagon"
+			dependencies: ["5FC42D8F3437C85B"]
+			id: "72EC861CF340CE62"
+			tasks: [{
+				id: "6DF5486B9BC53F89"
+				type: "item"
+				item: {
+					id: "ftbsluice:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-1542388038
+							1646021582
+							-1611674854
+							-964178315
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			shape: "hexagon"
+			dependencies: ["1D53ABB5176EE5B9"]
+			id: "1B46D873DD04D72C"
+			tasks: [{
+				id: "11CB8EA6A8267ADC"
+				type: "item"
+				item: {
+					id: "ftbsluice:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["7BE27F27515F9151"]
+			id: "2178E587E76A3FBE"
+			tasks: [{
+				id: "024FF81C8986989A"
+				type: "item"
+				item: {
+					id: "ftbsluice:gold_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["1DD00A84C184751C"]
+			id: "2A0930E3F2E637F7"
+			tasks: [{
+				id: "6F9577CBC2635360"
+				type: "item"
+				item: {
+					id: "ftbsluice:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["68FD993EC596E9D9"]
+			id: "3580E04B534063B7"
+			tasks: [{
+				id: "363A5BABA0F84FB0"
+				type: "item"
+				item: {
+					id: "ftbsluice:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["Put Netherrack in a Sluice with a Diamond Mesh or better."]
+			id: "2E94A0B4ED78E84A"
+			tasks: [{
+				id: "4A8FC0F7947B5B21"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["2E94A0B4ED78E84A"]
+			id: "68FD993EC596E9D9"
+			tasks: [{
+				id: "692C4BE322559270"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["7BEF37E4C7B7E8FC"]
+			id: "7BE27F27515F9151"
+			tasks: [{
+				id: "31AA43B020104490"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["7BEF37E4C7B7E8FC"]
+			id: "1DD00A84C184751C"
+			tasks: [{
+				id: "3BD2E30CF79220F4"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"Provides Water to Sluices and stop when the timer hit 0."
+				""
+				"/!\\ Incompatible with the Wooden Sluice!"
+			]
+			dependencies: ["1D53ABB5176EE5B9"]
+			id: "12341F9C67A50817"
+			tasks: [{
+				id: "08E713B870C7AB37"
+				type: "item"
+				item: "ftbsluice:pump"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			shape: "gear"
+			dependencies: [
+				"1B46D873DD04D72C"
+				"31AA43B020104490"
+			]
+			id: "538E593A4C0F9B06"
+			tasks: [{
+				id: "4954A0B1FA7D0D86"
+				type: "item"
+				item: "ftbsluice:iron_auto_hammer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			shape: "gear"
+			dependencies: [
+				"2178E587E76A3FBE"
+				"538E593A4C0F9B06"
+			]
+			id: "0C8DB15A6E58883F"
+			tasks: [{
+				id: "79529B2368D71FEF"
+				type: "item"
+				item: "ftbsluice:gold_auto_hammer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			shape: "gear"
+			dependencies: [
+				"2A0930E3F2E637F7"
+				"0C8DB15A6E58883F"
+			]
+			id: "74F5ACC991F9B927"
+			tasks: [{
+				id: "0FF840D00ECE8E12"
+				type: "item"
+				item: "ftbsluice:diamond_auto_hammer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			shape: "gear"
+			dependencies: [
+				"3580E04B534063B7"
+				"74F5ACC991F9B927"
+			]
+			id: "37FF7BD7DD69C062"
+			tasks: [{
+				id: "701FABEB3279968E"
+				type: "item"
+				item: "ftbsluice:netherite_auto_hammer"
+			}]
+		}
+	]
+}

@@ -1,0 +1,2011 @@
+{
+	id: "63BC05434CBFC164"
+	group: "062FAFBC121F7BEA"
+	order_index: 3
+	filename: "astral_sorcery"
+	title: "{chapters.astral_sorcery.title}"
+	icon: "astralsorcery:tome"
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: [
+				"158395FDB30AE7AC"
+				"08E554087F2078BC"
+				"0D571D27475598FC"
+			]
+			id: "63D4F7D4BF30CAE1"
+			tasks: [{
+				id: "03C6FD9D3E14C503"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"{chapters.astral_sorcery.quests2.description1}"
+				""
+				"{chapters.astral_sorcery.quests2.description2}"
+			]
+			dependencies: ["63D4F7D4BF30CAE1"]
+			size: 2.0d
+			id: "379E1B2F208A4F6F"
+			tasks: [{
+				id: "56F48D48F5768002"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["{chapters.astral_sorcery.quests3.description}"]
+			id: "1A30DBDF02EECE88"
+			tasks: [{
+				id: "74C671C2C06E5713"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["{chapters.astral_sorcery.quests4.description}"]
+			hide_dependency_lines: true
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "280E64D6FAE99D53"
+			tasks: [{
+				id: "70963424B38848DA"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: ["{chapters.astral_sorcery.quests5.description}"]
+			id: "6B8F0BCF091D5802"
+			tasks: [{
+				id: "48FC683AAD1F8200"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["{chapters.astral_sorcery.quests6.description}"]
+			dependencies: [
+				"6B8F0BCF091D5802"
+				"0D571D27475598FC"
+			]
+			id: "12D176A06632FEF5"
+			tasks: [{
+				id: "525974FBA7C7955B"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["{chapters.astral_sorcery.quests7.description}"]
+			id: "0D571D27475598FC"
+			tasks: [{
+				id: "250DA50BAB58BF5C"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["{chapters.astral_sorcery.quests8.description}"]
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "26C7CC6709525F34"
+			tasks: [{
+				id: "09388CCE48BA9BA2"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
+				count: 16L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["{chapters.astral_sorcery.quests9.description}"]
+			dependencies: ["26C7CC6709525F34"]
+			id: "335CCDF28737F22B"
+			tasks: [{
+				id: "7152474EB944EF37"
+				type: "item"
+				item: "astralsorcery:nocturnal_powder"
+				count: 4L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["{chapters.astral_sorcery.quests10.description}"]
+			dependencies: ["26C7CC6709525F34"]
+			id: "3516BCD37B9FF800"
+			tasks: [{
+				id: "340F9DC5BE962A43"
+				type: "item"
+				item: "astralsorcery:illuminator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "4E1BCF0A8FBBA86E"
+			tasks: [{
+				id: "3D2D1A6F9189E42C"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: [
+				"{chapters.astral_sorcery.quests12.description1}"
+				""
+				"{chapters.astral_sorcery.quests12.description2}"
+			]
+			id: "03AFAF80C6EE1CE2"
+			tasks: [{
+				id: "57982CDDA68C3D3D"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"{chapters.astral_sorcery.quests13.description1}"
+				""
+				"{chapters.astral_sorcery.quests13.description2}"
+			]
+			dependencies: ["4E1BCF0A8FBBA86E"]
+			id: "4AEBC66ADADE6144"
+			tasks: [{
+				id: "7B62E8932D9412EB"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "758B231BF3F74731"
+			tasks: [{
+				id: "4B499338AFEABEFA"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_axe"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "19EF10AD89A7A0A5"
+			tasks: [{
+				id: "2F60505237610645"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_pickaxe"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "6EB067BC3F4C34FE"
+			tasks: [{
+				id: "3E2E33DA4C05A0CA"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_shovel"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "45D59BF685DD507A"
+			tasks: [{
+				id: "26B7DA33E93B9BCD"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_sword"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["{chapters.astral_sorcery.quests18.description}"]
+			dependencies: ["379E1B2F208A4F6F"]
+			id: "691079393D94CF3C"
+			tasks: [{
+				id: "709657B7FD135B49"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["691079393D94CF3C"]
+			id: "70D1C32BC99FA47C"
+			tasks: [{
+				id: "2343350D7A72978A"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_attunement"
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"{chapters.astral_sorcery.quests20.description1}"
+				""
+				"{chapters.astral_sorcery.quests20.description2}"
+				""
+				"{chapters.astral_sorcery.quests20.description3}"
+			]
+			dependencies: ["70D1C32BC99FA47C"]
+			size: 2.0d
+			id: "3243D59DB3CBABE6"
+			tasks: [
+				{
+					id: "2A9052C22BC9FC32"
+					type: "item"
+					item: "astralsorcery:altar_attunement"
+				}
+				{
+					id: "295F75A391FEF853"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 28L
+				}
+				{
+					id: "3AAEE44887BD5FA9"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "50F4553647707653"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 21L
+				}
+				{
+					id: "1D973404405847B1"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "0D0C7E2C07BA3169"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["{chapters.astral_sorcery.quests21.description}"]
+			dependencies: ["3243D59DB3CBABE6"]
+			id: "406200C6BDE8B2DE"
+			tasks: [{
+				id: "0095C49DB5C57658"
+				type: "item"
+				item: {
+					id: "astralsorcery:knowledge_share"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			description: ["{chapters.astral_sorcery.quests22.description}"]
+			dependencies: [
+				"3243D59DB3CBABE6"
+				"7B62E8932D9412EB"
+			]
+			id: "3C8231DFA1A4A3D5"
+			tasks: [{
+				id: "1AB5DCC9CB86424A"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["3243D59DB3CBABE6"]
+			id: "6DA6639B39A1343B"
+			tasks: [{
+				id: "51183250136C12AE"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+		}
+		{
+			title: "{chapters.astral_sorcery.quests24.title}"
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["7F7B5D03D3B66329"]
+			id: "466DC19DF95CB5D7"
+			tasks: [
+				{
+					id: "0B07BDAEF2036F70"
+					type: "item"
+					item: {
+						id: "astralsorcery:architect_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "163A0808E8F32AD9"
+					type: "item"
+					item: {
+						id: "astralsorcery:exchange_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			dependencies: ["7F7B5D03D3B66329"]
+			id: "7770C1A835E0C8D7"
+			tasks: [{
+				id: "4B5AD1574511E122"
+				type: "item"
+				item: "astralsorcery:grapple_wand"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["3243D59DB3CBABE6"]
+			id: "0A3D54BB313CF1EF"
+			tasks: [{
+				id: "350ACDF2A5C241C8"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["0A3D54BB313CF1EF"]
+			id: "71EAB0B72E7788A3"
+			tasks: [{
+				id: "2881B999E1F5D9E7"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			description: ["{chapters.astral_sorcery.quests28.description}"]
+			dependencies: ["71EAB0B72E7788A3"]
+			id: "05B318770EADD5E6"
+			tasks: [{
+				id: "2B3097AF2BC3C936"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: ["{chapters.astral_sorcery.quests29.description}"]
+			dependencies: ["05B318770EADD5E6"]
+			id: "7F7B5D03D3B66329"
+			tasks: [{
+				id: "1663D303E95141A3"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			description: [
+				"{chapters.astral_sorcery.quests30.description1}"
+				""
+				"{chapters.astral_sorcery.quests30.description2}"
+				""
+				"{chapters.astral_sorcery.quests30.description3}"
+				""
+				"{chapters.astral_sorcery.quests30.description4}"
+			]
+			dependencies: ["7F7B5D03D3B66329"]
+			id: "5A6498E46305B409"
+			tasks: [{
+				id: "492C72409685DDAB"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			icon: "astralsorcery:attunement_altar"
+			x: -1.5d
+			y: 6.0d
+			description: [
+				"{chapters.astral_sorcery.quests31.description1}"
+				""
+				"{chapters.astral_sorcery.quests31.description2}"
+				""
+				"{chapters.astral_sorcery.quests31.description3}"
+				"{chapters.astral_sorcery.quests31.description4}"
+				""
+				"{chapters.astral_sorcery.quests31.description5}"
+				""
+				"{chapters.astral_sorcery.quests31.description6}"
+				""
+				"{chapters.astral_sorcery.quests31.description7}"
+			]
+			dependencies: [
+				"71EAB0B72E7788A3"
+				"57982CDDA68C3D3D"
+			]
+			size: 2.0d
+			id: "63DF8BD74EF329C1"
+			tasks: [
+				{
+					id: "600CE681DB0EEB40"
+					type: "item"
+					item: "astralsorcery:attunement_altar"
+				}
+				{
+					id: "51667E6AB2D10A06"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 225L
+				}
+				{
+					id: "432D5F7507EDA2D1"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 80L
+				}
+				{
+					id: "492DF38D6731B8F2"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 12L
+				}
+				{
+					id: "4B940F46BB22CEBF"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "656CC2A694A653C9"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: 2.5d
+			dependencies: [
+				"70D1C32BC99FA47C"
+				"51F7765E7ADE859B"
+			]
+			id: "3014915BC3B6BE35"
+			tasks: [{
+				id: "2BE795B59BA1F91A"
+				type: "item"
+				item: {
+					id: "astralsorcery:perk_gem_night"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							attribute_modifiers: [
+								{
+									mode: 1
+									id: [I;
+										-1116699611
+										372721421
+										-1826053303
+										731635311
+									]
+									baseValue: 0.059297107f
+									type: "astralsorcery:meleeattackdamage"
+								}
+								{
+									mode: 1
+									id: [I;
+										-697747994
+										1063273187
+										-2124576732
+										-1213719974
+									]
+									baseValue: 0.06860958f
+									type: "astralsorcery:movespeed"
+								}
+							]
+							modifier_identifier: [I;
+								879807516
+								228148518
+								-1075147045
+								1999558744
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 2.5d
+			dependencies: [
+				"70D1C32BC99FA47C"
+				"51F7765E7ADE859B"
+			]
+			id: "4E3E542278EF2E4D"
+			tasks: [{
+				id: "3E8287B17C4D1633"
+				type: "item"
+				item: {
+					id: "astralsorcery:perk_gem_day"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							attribute_modifiers: [
+								{
+									mode: 1
+									id: [I;
+										1401641184
+										-1894759860
+										-1358749616
+										-2033905512
+									]
+									baseValue: 0.050870907f
+									type: "astralsorcery:critmulti"
+								}
+								{
+									mode: 1
+									id: [I;
+										-1992633476
+										-1071559296
+										-1534933360
+										922482167
+									]
+									baseValue: 0.0637902f
+									type: "astralsorcery:reach"
+								}
+								{
+									mode: 1
+									id: [I;
+										582350259
+										78792324
+										-1982062700
+										1682667426
+									]
+									baseValue: 0.050040025f
+									type: "astralsorcery:critchance"
+								}
+							]
+							modifier_identifier: [I;
+								-863895634
+								-2084551371
+								-1158067408
+								-1137969343
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.25d
+			y: 2.0d
+			dependencies: [
+				"70D1C32BC99FA47C"
+				"51F7765E7ADE859B"
+			]
+			id: "4445E4EB12C588F1"
+			tasks: [{
+				id: "1A2ACAC17490A080"
+				type: "item"
+				item: {
+					id: "astralsorcery:perk_gem_sky"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							attribute_modifiers: [
+								{
+									mode: 1
+									id: [I;
+										788355764
+										363937880
+										-1873880742
+										1779235338
+									]
+									baseValue: 0.0706643f
+									type: "astralsorcery:projectileattackdamage"
+								}
+								{
+									mode: 1
+									id: [I;
+										-1866047400
+										-96776319
+										-1303719627
+										471590469
+									]
+									baseValue: 0.07145227f
+									type: "astralsorcery:critmulti"
+								}
+								{
+									mode: 1
+									id: [I;
+										335247198
+										1266569049
+										-2034580492
+										1135303687
+									]
+									baseValue: 0.07003233f
+									type: "astralsorcery:liferecovery"
+								}
+								{
+									mode: 1
+									id: [I;
+										-533110810
+										1822705783
+										-1468351267
+										1669870155
+									]
+									baseValue: 0.07822262f
+									type: "astralsorcery:movespeed"
+								}
+							]
+							modifier_identifier: [I;
+								-1955571852
+								530334239
+								-1258538483
+								-743903560
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "astralsorcery:gem_crystal_cluster"
+			x: 1.25d
+			y: 3.0d
+			description: [
+				"Drop 1 Rock Crystal and 1 Illumination Powder in Liquid Starlight, then wait a bit. After a short time, a crystal cluster will spawn. Then, after a long time, the cluster will turn into a Dynamism Gem Cluster, depending of the hour :"
+				""
+				"&eDay : Illium Dynamism Gem&r"
+				"&9Night : Ourium Dynamism Gem&r"
+				"&5Dawn/Dusk : Fengarum Dynamism Gem&r"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"70D1C32BC99FA47C"
+				"26C7CC6709525F34"
+				"63D4F7D4BF30CAE1"
+			]
+			id: "51F7765E7ADE859B"
+			tasks: [{
+				id: "0E06ED530C9AA1A9"
+				type: "checkmark"
+				title: "How to get crystal clusters"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: ["The Crystal Lens can be used to redirect starlight to a block. For examples, when you will get your first Collector Crystal, you can link the crystal to the lens, then the lens to your altar (you can just link the crystal to the altar but this is an example)."]
+			dependencies: ["3243D59DB3CBABE6"]
+			id: "6D2A9B96A5FADC94"
+			tasks: [{
+				id: "1C0FD71B9C2BD481"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: [
+				"The &bRitual Pedestal&r is used with Attuned Crystals to give effects to the players in a range."
+				""
+				""
+				"{image:kubejs:textures/quests/ritual_pedestal.png width:180 height:100 align:1}"
+				""
+				"Depending of the Attuned Crystal's constellation, the effect will be different. The power of the ritual is also changed by the properties of the crystal."
+				""
+				"If you want to optimize the power of your ritual, you have to supply more starlight with a Collector Crystal who have the same constellation."
+				""
+				"Then, some light rays will appear. You will have to redirect them on the pedestal with some &bCrystal Lens&r."
+				""
+				"Note : You can only places blocks on the Marble Arches, or you will stop the ritual."
+				""
+				"An example of optimised Aevitas ritual :"
+				""
+				"{image:kubejs:textures/quests/optimized_ritual.png width:180 height:100 align:1}"
+			]
+			dependencies: ["3243D59DB3CBABE6"]
+			id: "41F779F6040D9F15"
+			tasks: [
+				{
+					id: "7F987D1745F13F51"
+					type: "item"
+					item: "astralsorcery:ritual_pedestal"
+				}
+				{
+					id: "1CFDE6125124FF81"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "4D9F0B9BC338C57D"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+				{
+					id: "5120C42AA3AD8A2A"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "61F0EAA8852AEBB7"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["7F7B5D03D3B66329"]
+			id: "7BBADDE2DDD86C97"
+			tasks: [{
+				id: "7318934322F9E0F3"
+				type: "item"
+				item: {
+					id: "astralsorcery:blink_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			description: ["The &bShifting Star&r will remove your attunement and make you lose all your levels, points and unlocked perks."]
+			dependencies: ["7F7B5D03D3B66329"]
+			id: "0DD7614BAA345E7C"
+			tasks: [{
+				id: "00C1066C9CB051FA"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_constellation"
+			x: 3.0d
+			y: 6.0d
+			description: ["{image:kubejs:textures/quests/celestial_altar.png width:180 height:100 align:1}"]
+			dependencies: ["7F7B5D03D3B66329"]
+			size: 2.0d
+			id: "7177C2F0150C8E8B"
+			tasks: [
+				{
+					id: "6DC3AE7F172A7E8A"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+				{
+					id: "5FB948FFA7065D44"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49L
+				}
+				{
+					id: "56B3A2457BE0E879"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 40L
+				}
+				{
+					id: "51ECF2C54B954D9C"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "5814361FFD977E6E"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "4F433F60A2221578"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "43728FAAFCC1FBB3"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			description: [
+				"To get a &1Celestial Crystal&r, drop a Rock Crystal and a Stardust into Liquid Starlight."
+				""
+				"The a cluster will spawn. &nDon't break it until he is fully grown&r. It's recommended to place a Starmetal Ore under this cluster, it will speed up the process."
+				"But don't forget to send a starlight ray with a Collector Crystal to keep the ore transformed !"
+				""
+				"{image:kubejs:textures/quests/celestial_crysstal_cluster.png width:180 height:100 align:1}"
+			]
+			dependencies: ["7F7B5D03D3B66329"]
+			id: "0813F820CFAC24F1"
+			tasks: [{
+				id: "7CD4650B18EC1FD9"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 1
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:collector.rate"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.vicio"
+										pLevel: 2
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "astralsorcery:infuser"
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"The &3Starlight Infuser&r is used to make advanced crafts in Astral Sorcery."
+				""
+				"First, put the item on the infuser, then right click with your Resonating Wand. If there Liquid Starlight in the structure, the craft will start."
+				""
+				"The craft can use a bit of liquid sometime, but for the Infused Crystal Tools, all the Liquid Starlight will be used."
+				""
+				"Note : the Lapis Block is under the main block."
+				""
+				"{image:kubejs:textures/quests/starlight_infuser.png width:180 height:100 align:1}"
+			]
+			dependencies: ["7177C2F0150C8E8B"]
+			size: 2.0d
+			id: "130DA0BB8679FF49"
+			tasks: [
+				{
+					id: "2DF0637136B374F5"
+					type: "item"
+					item: "astralsorcery:infuser"
+				}
+				{
+					id: "6BF4D37FB77E67C6"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 20L
+				}
+				{
+					id: "3EC7D607B8A63DFC"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16L
+				}
+				{
+					id: "00FA32232501AFD5"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "4685EF08FB4431DC"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 4L
+				}
+				{
+					id: "0B16E2463104C844"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["130DA0BB8679FF49"]
+			id: "005A4E45B3CFD9E8"
+			tasks: [{
+				id: "1C401A07371F3A8C"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_axe"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["130DA0BB8679FF49"]
+			id: "69C1BFBDE13912B1"
+			tasks: [{
+				id: "13AD510C83D4F796"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_pickaxe"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+							modifier_identifier: [I;
+								629603654
+								1279344876
+								-2115028347
+								-1461506383
+							]
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["130DA0BB8679FF49"]
+			id: "1AFB03644AF0A280"
+			tasks: [{
+				id: "2E9E8A06E5EC8F0A"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_shovel"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["130DA0BB8679FF49"]
+			id: "334FD9D5130CBE99"
+			tasks: [{
+				id: "378F76C05902B91C"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_crystal_sword"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["130DA0BB8679FF49"]
+			id: "7CA89476AB19A637"
+			tasks: [{
+				id: "62C7C4FBA7F18BB7"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			description: [
+				"The &7Ritual Ancho&r is used to do \"Wireless Rituals\". You can activate a ritual somewhere, then put a Ritual Anchor near of it. "
+				""
+				"Then, place the other ritual anchor anywhere in the same dimension, bind the two Anchors with a Linking Tool and you're done ! "
+			]
+			dependencies: ["7177C2F0150C8E8B"]
+			id: "3E2B0C1929E78AC5"
+			tasks: [{
+				id: "7C2070443B6F3F6B"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2L
+			}]
+		}
+		{
+			title: "Collector Crystal"
+			x: 2.5d
+			y: 7.0d
+			description: [
+				"The &9Collector Crystals&r is used to give Starlight to your altar."
+				"You have to link them with a &9Linking Tool&r to your Altar."
+				""
+				"If you try to look the craft of the crystal in JEI, there is nothing, so here is the craft :"
+				"Note : this is an &nAttuned Crystal&r in the center of the table."
+				"{image:kubejs:textures/quests/collector_crystal_craft.png width:150 height:160 align:1}"
+			]
+			dependencies: ["7177C2F0150C8E8B"]
+			id: "55C3ABEF9636347B"
+			tasks: [{
+				id: "4B3893F568BDAD60"
+				type: "item"
+				title: "Any Collector Crystal"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:aevitas"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.aevitas"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:armara"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.armara"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:bootes"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.bootes"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:discidia"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.discidia"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:evorsio"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.evorsio"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:fornax"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.fornax"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:horologium"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.horologium"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:lucerna"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.lucerna"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:mineralis"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.mineralis"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:octans"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.octans"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:pelotrio"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.pelotrio"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+							{
+								id: "astralsorcery:rock_collector_crystal"
+								Count: 1b
+								tag: {
+									astralsorcery: {
+										constellation: "astralsorcery:vicio"
+										crystalProperties: {
+											attributes: [
+												{
+													property: "astralsorcery:size"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:purity"
+													pLevel: 2
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:shape"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:collector.rate"
+													pLevel: 3
+													discovered: 1b
+												}
+												{
+													property: "astralsorcery:constellation.vicio"
+													pLevel: 2
+													discovered: 1b
+												}
+											]
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: ["Acts like the &eIllumination Powder&r, but with multiple uses, and can be colored."]
+			dependencies: ["7177C2F0150C8E8B"]
+			id: "238FE50EE97C51ED"
+			tasks: [{
+				id: "6F630C25232E2793"
+				type: "item"
+				item: {
+					id: "astralsorcery:illumination_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			description: ["Works like a Crystal Lens, but can have multiple targets."]
+			dependencies: ["7177C2F0150C8E8B"]
+			id: "040A728ACC41A19B"
+			tasks: [{
+				id: "3BCA904D1EACA243"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_radiance"
+			x: 3.0d
+			y: 8.0d
+			description: [
+				"The &9Iridescent Altar&r is the final tier of Altar, and there is a new function :"
+				"When you craft something, sometimes the Astral Relays will show some items which are needed to continue the craft. You have to put the required items on the Relays with a right click."
+				""
+				"You can see which are the required items in JEI, they are the items around the crafting grid."
+				""
+				"Note : if there are a constelation required, simply put the correct Constelation Paper in the dedicaced slot."
+				""
+				"{image:kubejs:textures/quests/iridescent_altar.png width:180 height:100 align:1}"
+			]
+			dependencies: [
+				"0813F820CFAC24F1"
+				"7177C2F0150C8E8B"
+			]
+			size: 2.0d
+			id: "12F5FE94CD324EFD"
+			tasks: [
+				{
+					id: "04D33208AB1930FF"
+					type: "item"
+					item: "astralsorcery:altar_radiance"
+				}
+				{
+					id: "1E0C08A123DA0503"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 28L
+				}
+				{
+					id: "7C90457EB7784314"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			dependencies: ["12F5FE94CD324EFD"]
+			id: "1AAB2526E12C2344"
+			tasks: [{
+				id: "3CAFB1F7ED8DD82B"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+		}
+		{
+			title: "Irradiant Stars"
+			x: 2.5d
+			y: 9.0d
+			description: ["The &5Irradiant Stars&r are like the Shifting Stars, but they don't reset your level, and instantly attune you to another constellation."]
+			dependencies: ["12F5FE94CD324EFD"]
+			id: "11D3A468EDF9DD1C"
+			tasks: [
+				{
+					id: "6C80C0357954056A"
+					type: "item"
+					item: "astralsorcery:shifting_star_aevitas"
+				}
+				{
+					id: "6C431855954CB47A"
+					type: "item"
+					item: "astralsorcery:shifting_star_armara"
+				}
+				{
+					id: "361306CC814EA214"
+					type: "item"
+					item: "astralsorcery:shifting_star_discidia"
+				}
+				{
+					id: "2EE11E5385A587FF"
+					type: "item"
+					item: "astralsorcery:shifting_star_evorsio"
+				}
+				{
+					id: "64B6D491F5D711A3"
+					type: "item"
+					item: "astralsorcery:shifting_star_vicio"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 8.5d
+			dependencies: ["12F5FE94CD324EFD"]
+			id: "4F914329ACA879BB"
+			tasks: [{
+				id: "0F565496B1350B0B"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			description: ["The &9Mantle of Stars&r is an armor who can be attuned, and can be repaired with Stardust in an Anvil."]
+			dependencies: ["12F5FE94CD324EFD"]
+			id: "59C34E2C4E16856E"
+			tasks: [{
+				id: "52673D79F34E5CD0"
+				type: "item"
+				item: {
+					id: "astralsorcery:mantle"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

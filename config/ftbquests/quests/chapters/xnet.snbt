@@ -1,0 +1,234 @@
+{
+	id: "271C2E985B922B1A"
+	group: "3AFD8280D5598700"
+	order_index: 8
+	filename: "xnet"
+	title: "{chapters.xnet.title}"
+	icon: "xnet:controller"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "25C7C145B1F88868"
+			tasks: [{
+				id: "465CF21C160EF10E"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.75d
+			dependencies: ["25C7C145B1F88868"]
+			id: "234A696B6B613A3F"
+			tasks: [{
+				id: "321B106A028E1FCD"
+				type: "item"
+				title: "{chapters.xnet.quests2.tasks.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "xnet:netcable_red"
+								Count: 1b
+							}
+							{
+								id: "xnet:netcable_green"
+								Count: 1b
+							}
+							{
+								id: "xnet:netcable_blue"
+								Count: 1b
+							}
+							{
+								id: "xnet:netcable_yellow"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 16L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["25C7C145B1F88868"]
+			id: "2D9F10BEFB088A7B"
+			tasks: [{
+				id: "255007B7636540B0"
+				type: "item"
+				item: "xnet:netcable_routing"
+				count: 32L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["25C7C145B1F88868"]
+			id: "790527DAAB59FD85"
+			tasks: [{
+				id: "07FB973C49166327"
+				type: "item"
+				title: "{chapters.xnet.quests4.tasks.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "xnet:connector_red"
+								Count: 1b
+							}
+							{
+								id: "xnet:connector_green"
+								Count: 1b
+							}
+							{
+								id: "xnet:connector_blue"
+								Count: 1b
+							}
+							{
+								id: "xnet:connector_yellow"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: [
+				"790527DAAB59FD85"
+				"349EEBE46BEFCCE8"
+			]
+			id: "731D14973DC238AD"
+			tasks: [{
+				id: "6B3B613B20A734B9"
+				type: "item"
+				title: "{chapters.xnet.quests5.tasks.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "xnet:advanced_connector_red"
+								Count: 1b
+							}
+							{
+								id: "xnet:advanced_connector_green"
+								Count: 1b
+							}
+							{
+								id: "xnet:advanced_connector_blue"
+								Count: 1b
+							}
+							{
+								id: "xnet:advanced_connector_yellow"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.75d
+			y: 0.0d
+			dependencies: ["25C7C145B1F88868"]
+			id: "4E1E6EC4EFC1AB42"
+			tasks: [{
+				id: "4521E6ADA0F9C84D"
+				type: "item"
+				item: "xnet:facade"
+				count: 16L
+			}]
+		}
+		{
+			x: 3.25d
+			y: 0.0d
+			dependencies: ["25C7C145B1F88868"]
+			id: "35D5D31FA9307AD8"
+			tasks: [{
+				id: "317F593A22BA5F2A"
+				type: "item"
+				item: "xnet:router"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 3.0d
+			dependencies: ["594243DACBD04437"]
+			id: "3FCF4367B99ACFA9"
+			tasks: [{
+				id: "75D71DE1A4202797"
+				type: "item"
+				item: "xnet:antenna"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["25C7C145B1F88868"]
+			id: "594243DACBD04437"
+			tasks: [{
+				id: "03F4A09239DCEA3B"
+				type: "item"
+				item: "xnet:antenna_base"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 3.0d
+			dependencies: ["594243DACBD04437"]
+			id: "548D88A59323ADC3"
+			tasks: [{
+				id: "21590D9E9E1F7AE9"
+				type: "item"
+				item: "xnet:antenna_dish"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["25C7C145B1F88868"]
+			id: "349EEBE46BEFCCE8"
+			tasks: [{
+				id: "39A188159AE4A1B5"
+				type: "item"
+				item: "xnet:connector_upgrade"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["25C7C145B1F88868"]
+			id: "5F14EFDE099A0558"
+			tasks: [{
+				id: "5DF4A87798B62516"
+				type: "item"
+				item: "xnet:redstone_proxy"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["5F14EFDE099A0558"]
+			id: "547A600E52AFD08D"
+			tasks: [{
+				id: "59DB35F189414E93"
+				type: "item"
+				item: "xnet:redstone_proxy_upd"
+			}]
+		}
+	]
+}

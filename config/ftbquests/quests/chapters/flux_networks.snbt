@@ -1,0 +1,122 @@
+{
+	id: "1528EC03146B2BC3"
+	group: "3AFD8280D5598700"
+	order_index: 7
+	filename: "flux_networks"
+	title: "{chapters.flux_networks.title}"
+	icon: "fluxnetworks:flux_point"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"{chapters.flux_networks.quests1.description1}"
+				""
+				"{chapters.flux_networks.quests1.description2}"
+			]
+			id: "7858BEED7F60628A"
+			tasks: [{
+				id: "014262895B2EB251"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: [
+				"7858BEED7F60628A"
+				"6A64FE2E1082FFA8"
+			]
+			id: "1D686311371150A0"
+			tasks: [{
+				id: "6DC547FF159CD29C"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+				count: 4L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["1D686311371150A0"]
+			id: "0AECB5A534ADCA75"
+			tasks: [{
+				id: "07E29C36E9F87EDC"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["1D686311371150A0"]
+			id: "2D98E0C7D9A55336"
+			tasks: [{
+				id: "6D7B6B36A5E09942"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["1D686311371150A0"]
+			id: "11DCB319618A3895"
+			tasks: [{
+				id: "09484239BB2ED57B"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["6C15D94F70D2F096"]
+			id: "3AC8801FA0AB929A"
+			tasks: [{
+				id: "50A24D0AEB9F34BD"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 0.75d
+			hide_dependency_lines: true
+			dependencies: ["1D686311371150A0"]
+			id: "6C15D94F70D2F096"
+			tasks: [{
+				id: "2D8BBA441E70CBB6"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 0.75d
+			dependencies: ["3AC8801FA0AB929A"]
+			id: "1D5A2B0A5C582F5B"
+			tasks: [{
+				id: "6157F1544D639CE4"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			shape: "square"
+			dependencies: ["7858BEED7F60628A"]
+			id: "1275F8E80E8DD6AD"
+			tasks: [{
+				id: "49664B6A00770C8D"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+	]
+}

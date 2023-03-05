@@ -1,0 +1,271 @@
+{
+	id: "2DA7B79F716BBE39"
+	group: "062FAFBC121F7BEA"
+	order_index: 0
+	filename: "hexerei"
+	title: "{chapters.hexerei.title}"
+	icon: "hexerei:mixing_cauldron"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"{chapters.hexerei.quests1.description1}"
+				""
+				"{chapters.hexerei.quests1.description2}"
+				""
+				"{chapters.hexerei.quests1.description3}"
+			]
+			size: 2.0d
+			id: "1AC2DABF1DF606CB"
+			tasks: [{
+				id: "3F6EC5BBA2F64346"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -1.25d
+			description: ["{chapters.hexerei.quests2.description}"]
+			dependencies: [
+				"1AC2DABF1DF606CB"
+				"130D2DE9E91124E0"
+			]
+			id: "22A79FCE9A253443"
+			tasks: [{
+				id: "4BB61DACBCE68D38"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["{chapters.hexerei.quests3.description}"]
+			dependencies: ["1AC2DABF1DF606CB"]
+			id: "414268DD28293F66"
+			tasks: [{
+				id: "4A83647D784AEFF3"
+				type: "item"
+				item: "hexerei:mahogany_sapling"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["414268DD28293F66"]
+			id: "4184AE2CA39BB0C8"
+			tasks: [{
+				id: "516A6C5E1DDD050B"
+				type: "item"
+				item: "hexerei:mahogany_planks"
+				count: 4L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: [
+				"1AC2DABF1DF606CB"
+				"516A6C5E1DDD050B"
+			]
+			id: "012FFA66BC62702A"
+			tasks: [{
+				id: "5483D85DE4BC3BC2"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"1AC2DABF1DF606CB"
+				"516A6C5E1DDD050B"
+				"68FD993EC596E9D9"
+				"1DD00A84C184751C"
+			]
+			id: "6A051B53AAA9C5BC"
+			tasks: [{
+				id: "2859681971B32750"
+				type: "item"
+				item: {
+					id: "hexerei:warhammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.25d
+			y: 1.25d
+			dependencies: [
+				"1AC2DABF1DF606CB"
+				"516A6C5E1DDD050B"
+			]
+			id: "059821CE30214E8C"
+			tasks: [{
+				id: "18D7B81B9EF4EB55"
+				type: "item"
+				item: "hexerei:book_of_shadows_altar"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.75d
+			id: "47D5459722A46B75"
+			tasks: [{
+				id: "759CEBE602F13D60"
+				type: "item"
+				item: "hexerei:mandrake_flower"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.75d
+			id: "063C4E68A0926951"
+			tasks: [{
+				id: "60EC69154449C97F"
+				type: "item"
+				item: "hexerei:belladonna_flower"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.75d
+			id: "662B448BCDA7D643"
+			tasks: [{
+				id: "65A3671D8476E858"
+				type: "item"
+				item: "hexerei:yellow_dock_bush"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			description: ["{chapters.hexerei.quests11.description}"]
+			dependencies: ["47D5459722A46B75"]
+			id: "7E308D758731A0C3"
+			tasks: [{
+				id: "2F76285B4691EF5A"
+				type: "item"
+				item: "hexerei:mandrake_root"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"1AC2DABF1DF606CB"
+				"662B448BCDA7D643"
+				"063C4E68A0926951"
+				"47D5459722A46B75"
+			]
+			id: "3CC8BA05B443401D"
+			tasks: [{
+				id: "42FDD8754EBB28AC"
+				type: "item"
+				item: "hexerei:herb_drying_rack_full"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["{chapters.hexerei.quests13.description}"]
+			dependencies: ["1AC2DABF1DF606CB"]
+			id: "06546CADB6AC9770"
+			tasks: [{
+				id: "492DDD8671580583"
+				type: "item"
+				item: "hexerei:blood_sigil"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: ["{chapters.hexerei.quests14.description}"]
+			dependencies: ["06546CADB6AC9770"]
+			id: "69AEC06D12E29880"
+			tasks: [{
+				id: "0DF4E6FCCD4CE9A7"
+				type: "item"
+				item: "hexerei:blood_bottle"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 1.25d
+			dependencies: [
+				"1AC2DABF1DF606CB"
+				"5B024C9466C52147"
+				"3345D9ECCC6F460A"
+			]
+			id: "2C7B251D951F0216"
+			tasks: [{
+				id: "2A36FC98AFEFC9BE"
+				type: "item"
+				item: "hexerei:infused_fabric"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: [
+				"{chapters.hexerei.quests16.description1}"
+				""
+				"{chapters.hexerei.quests16.description2}"
+				""
+				"{chapters.hexerei.quests16.description3}"
+			]
+			dependencies: ["1AC2DABF1DF606CB"]
+			id: "0D093706096572A5"
+			tasks: [{
+				id: "210F733C6B101AF9"
+				type: "item"
+				item: "hexerei:candle_dipper"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["0D093706096572A5"]
+			id: "386E4B9AA62F095E"
+			tasks: [{
+				id: "5843AEEB691C15B0"
+				type: "item"
+				title: "{chapters.hexerei.quests17.tasks.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hexerei:candles"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.75d
+			dependencies: ["386E4B9AA62F095E"]
+			id: "5864719F8C5B7F5E"
+			tasks: [{
+				id: "6557926CC68E0BD5"
+				type: "item"
+				item: "hexerei:candelabra"
+			}]
+		}
+	]
+}

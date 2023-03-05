@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "7D5BC8F7E9F44586", title: "{chapter_groups.chapter1.title}" }
+		{ id: "3AFD8280D5598700", title: "{chapter_groups.chapter2.title}" }
+		{ id: "062FAFBC121F7BEA", title: "{chapter_groups.chapter3.title}" }
+		{ id: "6AEFA6DA44D00459", title: "{chapter_groups.chapter4.title}" }
+		{ id: "230B72CC6A99B5CF", title: "{chapter_groups.chapter5.title}" }
+	]
+}

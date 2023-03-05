@@ -1,0 +1,205 @@
+{
+	id: "5171DCCCA4146D0E"
+	group: "7D5BC8F7E9F44586"
+	order_index: 5
+	filename: "usefull_things"
+	title: "{chapters.usefull_things.title}"
+	icon: {
+		id: "buildinggadgets:gadget_building"
+		Count: 1b
+		tag: {
+			state: {
+				serializer: "buildinggadgets:dummy_serializer"
+				state: {
+					Name: "minecraft:air"
+				}
+				data: { }
+			}
+		}
+	}
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["{chapters.usefull_things.quests1.description}"]
+			id: "2ECD8825DA8B2AB6"
+			tasks: [{
+				id: "046D180E1A12243F"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "08E24852A341DD53"
+			tasks: [{
+				id: "5D8F01B2575ABD49"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+						energy: 500000.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "2BE61CF0DF6A9346"
+			tasks: [{
+				id: "295887E40438A8B6"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+						energy: 1000000.0d
+					}
+				}
+			}]
+		}
+		{
+			title: "{chapters.usefull_things.quests4.title}"
+			x: 1.5d
+			y: -1.5d
+			id: "14412D8DD71A40CF"
+			tasks: [
+				{
+					id: "1CE9E88F0B01B521"
+					type: "item"
+					item: "rangedwirelessredstone:redstone_transmitter"
+				}
+				{
+					id: "754050189FC4C308"
+					type: "item"
+					item: "rangedwirelessredstone:redstone_receiver"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "0C3BC3653C46184A"
+			tasks: [{
+				id: "54C6B9D1D6E5F0A9"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["0C3BC3653C46184A"]
+			id: "2F31E87743C7DD79"
+			tasks: [{
+				id: "61A42D6C1F52EB1C"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["223A09B4E2743FAE"]
+			id: "3E3D6282C9A017DC"
+			tasks: [{
+				id: "38EF1B40C90F0382"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["2F31E87743C7DD79"]
+			id: "223A09B4E2743FAE"
+			tasks: [{
+				id: "4245DF7F16F04276"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["3E3D6282C9A017DC"]
+			id: "19A738892521B67A"
+			tasks: [{
+				id: "59CE4AE7B70B33F7"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["{chapters.usefull_things.quests10.description}"]
+			id: "2C5FB921C203DA72"
+			tasks: [{
+				id: "7C55F17ABFC812AD"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "{chapters.usefull_things.quests11.title}"
+			x: 1.5d
+			y: 1.5d
+			description: ["{chapters.usefull_things.quests11.description}"]
+			id: "1D11C5FAFC2FC7F4"
+			tasks: [
+				{
+					id: "562BADC865EE2294"
+					type: "item"
+					item: "rftoolsbuilder:shield_block1"
+				}
+				{
+					id: "569DE7CCBB352502"
+					type: "item"
+					item: "rftoolsbuilder:shield_block2"
+				}
+				{
+					id: "3939CBBA3CF8A20C"
+					type: "item"
+					item: "rftoolsbuilder:shield_block3"
+				}
+				{
+					id: "7306C9EBE3E9A742"
+					type: "item"
+					item: "rftoolsbuilder:shield_block4"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["{chapters.usefull_things.quests12.description}"]
+			id: "49E90B5D04C85590"
+			tasks: [{
+				id: "1A6B65A893E8B631"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+		}
+	]
+}

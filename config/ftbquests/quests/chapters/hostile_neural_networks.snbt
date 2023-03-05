@@ -1,0 +1,482 @@
+{
+	id: "0EB2BF907DCD5D15"
+	group: "6AEFA6DA44D00459"
+	order_index: 1
+	filename: "hostile_neural_networks"
+	title: "{chapters.hostile_neural_networks.title}"
+	icon: "hostilenetworks:sim_chamber"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.25d
+			y: -0.5d
+			description: ["{chapters.hostile_neural_networks.quests1.description}"]
+			dependencies: ["686A74F42BD48052"]
+			id: "63A0FB63376FA790"
+			tasks: [{
+				id: "0305A9DB700F7988"
+				type: "item"
+				item: "hostilenetworks:sim_chamber"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.75d
+			description: ["{chapters.hostile_neural_networks.quests2.description}"]
+			id: "001C375C0429239B"
+			tasks: [{
+				id: "3F3657A31F0EECF5"
+				type: "item"
+				item: "hostilenetworks:loot_fabricator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"{chapters.hostile_neural_networks.quests3.description1}"
+				""
+				"{chapters.hostile_neural_networks.quests3.description2}"
+			]
+			id: "230548F65574E41F"
+			tasks: [{
+				id: "6ACAAA9212FACE9B"
+				type: "item"
+				item: "hostilenetworks:blank_data_model"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "5D41DF36305D55F9"
+			tasks: [{
+				id: "44A74E684280F09E"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "7A48C17480F74F23"
+			tasks: [{
+				id: "04B3B74924D9F1F4"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "42B040C00C7FF00F"
+			tasks: [{
+				id: "2A687A589879627E"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "61B00A86AB47B172"
+			tasks: [{
+				id: "555B28F3250AF945"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ghast"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "14324656F92D3ED1"
+			tasks: [{
+				id: "1FED92383379E12B"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "48023F990A5314F1"
+			tasks: [{
+				id: "52FC7F2282236178"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "1F112BC19B0F47A0"
+			tasks: [{
+				id: "58F4794947A2553D"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "22BEA8A3609E05E7"
+			tasks: [{
+				id: "5CE417681C9CD04A"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.25d
+			dependencies: ["230548F65574E41F"]
+			id: "136A389DE3DC68DD"
+			tasks: [{
+				id: "4A6F63700DA59F24"
+				type: "item"
+				item: {
+					id: "hostilenetworks:data_model"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"136A389DE3DC68DD"
+				"65B562E467A3FE3C"
+			]
+			id: "668D447E6B9452F2"
+			tasks: [{
+				id: "6D95D0DAD3AD4FBF"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:skeleton"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"22BEA8A3609E05E7"
+				"65B562E467A3FE3C"
+			]
+			id: "417E53CBF3441F04"
+			tasks: [{
+				id: "58A4752A94A1779D"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:zombie"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"48023F990A5314F1"
+				"65B562E467A3FE3C"
+			]
+			id: "38DFE3B28ED07A00"
+			tasks: [{
+				id: "4984F1F0F8D6DD5A"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"7A48C17480F74F23"
+				"65B562E467A3FE3C"
+			]
+			id: "1541E55017181478"
+			tasks: [{
+				id: "2D2F8FDDA084BAB9"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:creeper"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"1F112BC19B0F47A0"
+				"65B562E467A3FE3C"
+			]
+			id: "68357943B972188D"
+			tasks: [{
+				id: "6532AC595106D73A"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:spider"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"5D41DF36305D55F9"
+				"65B562E467A3FE3C"
+			]
+			id: "37A0A5A1F320CF9F"
+			tasks: [{
+				id: "68FBADF78EBB826A"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:blaze"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"42B040C00C7FF00F"
+				"65B562E467A3FE3C"
+			]
+			id: "5CDFDB111B442CBF"
+			tasks: [{
+				id: "2BE6C00BCE505133"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ender_dragon"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"61B00A86AB47B172"
+				"65B562E467A3FE3C"
+			]
+			id: "39A43B81E7FCC18F"
+			tasks: [{
+				id: "6173BC7676D2A230"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:ghast"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: [
+				"63A0FB63376FA790"
+				"14324656F92D3ED1"
+				"65B562E467A3FE3C"
+			]
+			id: "59A367484F03F88F"
+			tasks: [{
+				id: "15D147F24362AF44"
+				type: "item"
+				item: {
+					id: "hostilenetworks:prediction"
+					Count: 1b
+					tag: {
+						data_model: {
+							id: "hostilenetworks:wither_skeleton"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: -0.5d
+			description: ["{chapters.hostile_neural_networks.quests22.description}"]
+			id: "65B562E467A3FE3C"
+			tasks: [{
+				id: "5B305B491ABBD5B5"
+				type: "item"
+				item: "hostilenetworks:empty_prediction"
+				count: 16L
+			}]
+		}
+		{
+			x: -1.25d
+			y: -1.5d
+			dependencies: [
+				"63A0FB63376FA790"
+				"65B562E467A3FE3C"
+			]
+			id: "0DCC9D666661789E"
+			tasks: [{
+				id: "2B65D7710BBB0F93"
+				type: "item"
+				item: "hostilenetworks:overworld_prediction"
+			}]
+		}
+		{
+			x: 1.25d
+			y: -1.5d
+			dependencies: [
+				"63A0FB63376FA790"
+				"65B562E467A3FE3C"
+			]
+			id: "72CAEC37E7D2FA73"
+			tasks: [{
+				id: "00CE5BAE7AAF9EC8"
+				type: "item"
+				item: "hostilenetworks:end_prediction"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.75d
+			dependencies: [
+				"63A0FB63376FA790"
+				"65B562E467A3FE3C"
+			]
+			id: "17F75A9A5B8DF5F3"
+			tasks: [{
+				id: "2E8B259A974042D3"
+				type: "item"
+				item: "hostilenetworks:nether_prediction"
+			}]
+		}
+	]
+}
