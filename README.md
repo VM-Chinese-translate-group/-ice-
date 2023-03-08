@@ -1,4 +1,4 @@
-# *Ice* 汉化补丁
+# \*Ice\* 汉化补丁
 CurseForge|Modrinth|Modpack Version|Status
 :-|:-|:-|:-
 [Modpack](https://www.curseforge.com/minecraft/modpacks/magic-ice-tech)|[Modpack]()|1.0.4|*Active*|
