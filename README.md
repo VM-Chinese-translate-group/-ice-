@@ -1,7 +1,7 @@
-# Modpack Name 汉化补丁 空的仓库！但是已经要到授权占位用
+# *Ice* 汉化补丁
 CurseForge|Modrinth|Modpack Version|Status
 :-|:-|:-|:-
-[Modpack]()|[Modpack]()|Version|*Active*|
+[Modpack](https://www.curseforge.com/minecraft/modpacks/magic-ice-tech)|[Modpack]()|1.0.4|*Active*|
 # 作者
 查看贡献者列表以获得完整列表
 # 鸣谢
